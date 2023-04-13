@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500&display=swap');
+
+
+
+
+.navbar {
+    background:  #F8F8F8;
+    
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.09rem;
+  }
+  
+  .navbar-logo {
+    color: #000000;
+    justify-self: start;
+   
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+  
+
+  
+  .nav-menu {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 70vw;
+    justify-content: end;
+    margin-right: 2rem;
+  }
+  
+  .nav-item {
+    display: flex;
+    align-items: center;
+    height: 80px;
+  }
+  
+  /* .nav-links {
+    
+    
+    color: #000000A6;
+
+    text-decoration: none;
+    padding: 1.1rem 1rem;
+    font-weight:400;
+    
+  }
+  
+  .nav-links:hover {
+    color:black;
+    border-radius: 5px;
+    transition: all 0.2s ease-out;
+    text-decoration: underline;
+
+  } */
+  .nav-links {
+    color: #000000A6;
+    text-decoration: none;
+    padding: 1.1rem 1rem;
+    font-weight: 400;
+    position: relative;
+  }
+  
+  .nav-links::before {
+    content: '';
+    position: absolute;
+    top:40px;
+    left: 20px;
+    width: 0%;
+    height: 2px;
+    background-color: black;
+    transition: all 0.6s ease-out;
+  }
+  
+  .nav-links:hover::before {
+    width: 25%;
+  }
+  
+  .nav-links:hover {
+    color: black;
+    border-radius: 5px;
+    transition: all 0.2s ease-out;
+  }
+  
+  
+  .fa-bars {
+    color: #000000;
+  }
+  
+  .nav-links-mobile {
+    display: none;
+  }
+  
+  .menu-icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 960px) {
+    .NavbarItems {
+      position: relative;
+    }
+
+    .nav-item{
+height:43px;
+background-color: white;
+    }
+
+    .nav-menu {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 40vh;
+      position: absolute;
+      top: 80px;
+      left: -100%;
+      opacity: 1;
+      transition: all 0.5s ease;
+    }
+  
+    .nav-menu.active {
+      background:  white;
+      left: 0;
+      opacity: 1;
+      transition: all 0.5s ease;
+      z-index: 1;
+    }
+  
+    .nav-links {
+      background: white;
+      text-align: left;
+      padding:  2em 3em;
+      width: 100%;
+      display: table;
+      text-decoration: none;
+      
+      
+    }
+  
+   
+    .nav-links::before {
+ display:none;
+    }
+    
+    .nav-links:hover::before {
+      display: none;
+    }
+  
+    .navbar-logo {
+      position: absolute;
+      top: 10px;
+      left: 0;
+      transform: translate(25%, 50%);
+    }
+  
+    .menu-icon {
+      display: block;
+      position: absolute;
+      top: 0;
+      right: 0;
+      transform: translate(-100%, 60%);
+      font-size: 1.8rem;
+      cursor: pointer;
+    }
+  
+    .fa-times {
+      color: #000000;
+      font-size: 2rem;
+    }
+    .fa-bars {
+      color: #000000;
+      font-size: 2rem;
+    }
+  
+  
+    .nav-links-mobile {
+      display: none;
+ 
+    }
+  
+
+  
+    button {
+      display: none;
+    }
+  }
+
+
+
+
+
+
+ 
+  
+  
+  
+  
+  
+  
+  
+  
