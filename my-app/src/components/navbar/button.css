@@ -1,0 +1,32 @@
+:root {
+    --primary: #fff;
+  }
+  
+  .btn {
+    
+    margin-top: -10px;
+    
+    
+    font-size: 16px;
+    border:none;
+    cursor: pointer;
+    
+  }
+  
+  .btn:hover {
+    
+  color: #fff;
+    
+   
+    border: none;
+    transition: all 0.3s ease-out;
+  }
+  .fa-magnifying-glass{
+    padding: 10px 12px;
+    border: 1px solid gray;
+    border-radius: 50%;
+  }
+  .fa-magnifying-glass:hover{
+    padding: 10px 12px;
+background-color: black;
+  }
