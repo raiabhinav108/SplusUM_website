@@ -31,8 +31,14 @@ const Team = () => {
              </div>
             </div>
             <div className="main_card2">
-             <div className="personal_image">
-             <img src="	https://arcstudio.liquid-themes.com/wp-content/uploads/2022/03/2-1.jpg" alt=""/>
+             
+             <div className="t_det"><h6>Extra infos</h6> </div>
+             <div className="card_name">
+               
+             </div>
+             <div className="card_para">
+              <p>Through a unique combination of engineering, construction and design disciplines and expertise.</p>
+           
              </div>
             </div>
  
