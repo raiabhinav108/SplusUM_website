@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500&display=swap');
+.img1{
+    height: 100vh;
+    width: 100%;
+    
+   
+}
+.curser{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-family: "poppins";
+    font-size: small;
+    opacity: 0.8;
+    
+}
+.parent{
+    cursor: none;
+    position: relative;
+    height: 100vh;
+    margin-bottom: 50px;
+}
+
+.description{
+    left: 100px;;
+    width: 50%;
+    min-width: 400px;
+    position: relative;
+    z-index: 99;
+    margin-top: -180px;
+    padding-bottom: 80px;
+    background-color: transparent !important;
+    font-family: 'poppins';
+}
+
+.description h1{
+    font-size: 40px;
+    line-height: 1.5em;
+    color: #f8f8f8;
+}
+.description p{
+    font-size: 17px;
+    font-weight: 300;
+    color: #f8f8f8;
+}
+@media (min-width: 200px) and (max-width: 1024px) {
+  
+    .description{
+        left: 20px;
+        width: 20%;
+        margin-top: -100px;
+    }
+    .description p{
+        font-size: 10px;
+        
+    }
+    .description h1{
+        font-size: 30px;
+        line-height: 1.5em;
+    }
+  }
+  :root {
+    --swiper-theme-color: black!important;
+}
+
