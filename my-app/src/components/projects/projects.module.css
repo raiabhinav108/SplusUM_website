@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500&display=swap');
+.Projectsets{
+    width: 85%;
+    
+    margin-left: 7vw;
+    
+}
+.headplussub{
+    width: 70%;
+}
+.head{
+    line-height: 4em;
+    font-family: "poppins";
+   
+}
+.subhead{
+    font-family: "poppins";
+    font-weight: 300;
+    padding-bottom: 50px;
+    width: 70%;
+}
+.card{
+    width: 45%;
+    min-width: 360px
+}
+.cardimg{
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+.cardimg img{
+    width: 100%;
+    height: 900px;
+}
+.cardsSet{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+.projehead{
+    display: flex;
+    line-height: 3em;
+    font-family: "poppins";
+    font-size: 18px;
+    font-weight: 400;
+    justify-content: space-between;
+    
+}
+.projehead div{
+    font-size: 15px;
+    font-weight: 300;
+    
+}
+.projehead div a{
+    text-decoration: none;
+    color: black;
+}
+.cardDescrip p{
+    font-family: "poppins";
+    font-weight: 300;
+    font-size: 14px;
+}
+.projimage{
+    transition: all 2s;
+}
