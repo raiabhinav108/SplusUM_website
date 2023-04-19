@@ -5,7 +5,7 @@
 
 .navbar {
     background:  #F8F8F8;
-    
+   
     height: 65px;
     display: flex;
     justify-content: center;
@@ -13,6 +13,7 @@
     font-size: 0.8rem;
     font-family: 'Poppins', sans-serif;
     letter-spacing: 0.09rem;
+    z-index: 999;
   }
   
   .navbar-logo {
