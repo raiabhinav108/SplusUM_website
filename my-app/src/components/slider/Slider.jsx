@@ -106,7 +106,7 @@ const openDialog=()=>{
           </div>
         </SwiperSlide>
       </Swiper>
-    <div><button onClick={() => openDialog()}>CLick me</button></div>
+    <div className= {styles.pop_up}><button onClick={() => openDialog()}>CLick me</button></div>
     <ContactPage open={open} setOpen={setOpen}/>
     </div>
   );
