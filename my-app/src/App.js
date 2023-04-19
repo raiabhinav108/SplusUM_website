@@ -23,11 +23,12 @@ function App() {
 
       <Slider/>
       <Projects/>
+      <Contact/>
       <About/>
       <ImageSlider/>
       <OurServices/>
     <Team/>
-    <Contact/>
+    
       <News/>
       <Footer/>
 
