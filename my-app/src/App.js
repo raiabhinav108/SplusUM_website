@@ -12,6 +12,7 @@ import Footer from "./components/footer/Footer";
 import News from "./components/news/News";
 import Team from "./components/team/Team";
 import Contact from "./components/contact/Contact";
+import ContactPage from "./components/contactPage/ContactPage";
 
 
 
@@ -22,6 +23,7 @@ function App() {
       <Navbar/>
 
       <Slider/>
+     
       <Projects/>
       <Contact/>
       <About/>
