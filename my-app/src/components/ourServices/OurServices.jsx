@@ -49,8 +49,8 @@ const OurServices = () => {
             risus felis, at commodo leo vehicula sed. Donec pharetra nisl eu
             tellus suscipit lacinia. Sed sollicitudin cursus nisl, eget pulvinar
             turpis. Ut dapibus et mi 
-            <div>
-              <button className={styles.button}>LET'S BUILD</button>
+            <div className={styles.buttonParent}>
+            <button className='cont_btn'></button>
             </div>
           </div>
         </div>
