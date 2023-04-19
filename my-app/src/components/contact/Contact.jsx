@@ -15,7 +15,7 @@ const Contact = () => {
             </div>
             <div className="cont">
             <Link to='sign-up'>
-        <button className='cont_btn'>LET'S BUILD</button>
+        <button className='cont_btn'></button>
     </Link>
             </div>
     </div>
