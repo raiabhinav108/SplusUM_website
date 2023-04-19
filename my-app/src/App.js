@@ -24,7 +24,7 @@ function App() {
       <Projects/>
       <About/>
       <ImageSlider/>
-
+      <OurServices/>
     <Team/>
       <News/>
       <Footer/>

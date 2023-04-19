@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500&display=swap');
+.OurServicesParent{
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 100px;
+    font-family: "poppins";
+    margin-bottom: 100px;
+}
+.horizontalrule{
+    
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    height: 1px;
+    background-color: black;
+}
+.Headingpart{
+    font-size: 20px;
+    padding-bottom: 2em;
+}
+.mid{
+    width: 100%;
+    display: flex;
+    gap:1em
+}
+.Contentpart{
+    font-weight: 300;
+    font-size: 14px;
+    width: 80%;
+}
+.Accordion{
+    width: 100%;
+    padding: 0;
+    
+}
+.button{
+    font-family: "poppins";
+    margin-top: 2em;
+    width: 45%;
+    padding: 1.2em;
+    font-size: 14px;
+    background-color:white ;
+    border: 1.5x solid;
+    border-color: lightgray;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+}
+.smallOurServices{
+    font-family: "poppins";
+    font-weight: 300;
+    font-size: small;
+}

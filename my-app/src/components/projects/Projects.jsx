@@ -5,7 +5,7 @@ const Projects = () => {
   let y = useTransform(scrollYProgress,[0,1],["5%","-50%"]);
   let z = useTransform(scrollYProgress,[0,1],["0%","-47%"]);
   return (
-    <div>
+    <div style={{backgroundColor:"#f8f8f8"}}>
       <div className={styles.Projectsets}>
         <div className={styles.headplussub}> 
           <div className={styles.head}>
