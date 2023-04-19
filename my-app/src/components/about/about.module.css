@@ -53,16 +53,14 @@ hr{
 .pic{
     width: 582px;
     height: 590px;
-    min-width: 500px;
-    min-height: 590px;
+
     margin: 0 auto;
     
 }
 
 .pic img{
     width: 100%;
-    min-width: 350px;
-    min-height: 480px;
+    
     margin: 0 auto;
 }  
 .arrows{

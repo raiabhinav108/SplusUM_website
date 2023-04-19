@@ -106,7 +106,7 @@
     display: none;
   }
   
-  @media screen and (max-width: 960px) {
+  @media screen and (max-width: 1024px) {
     .NavbarItems {
       position: relative;
     }
@@ -188,10 +188,7 @@ background-color: white;
     }
   
   
-    .nav-links-mobile {
-      display: none;
- 
-    }
+
   
 
   
