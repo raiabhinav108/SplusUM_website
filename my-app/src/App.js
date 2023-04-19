@@ -25,7 +25,7 @@ function App() {
       <Projects/>
       <About/>
       <ImageSlider/>
-
+      <OurServices/>
     <Team/>
     <Contact/>
       <News/>

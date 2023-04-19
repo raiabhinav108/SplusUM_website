@@ -30,8 +30,9 @@ const Slider = () => {
     },
   };
   
+  
   return (
-    <div className={styles.parent}>
+    <div className={styles.parent} >
       <Swiper
         // install Swiper modules
         modules={[Navigation, Pagination, Scrollbar, A11y]}
@@ -47,6 +48,7 @@ const Slider = () => {
             variants={variants}
             animate="default"
             whileTap={{ scale: 0.6 }}
+            id="mango"
           >
             Drag
           </motion.div>

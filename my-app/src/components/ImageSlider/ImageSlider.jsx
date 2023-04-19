@@ -12,7 +12,7 @@ import { useScroll,motion,useTransform } from "framer-motion";
 
 const ImageSlider = () => {
   let {scrollYProgress} = useScroll();
-    let y = useTransform(scrollYProgress,[0,1],["100%","-30%"]);
+    let y = useTransform(scrollYProgress,[0,1],["100%","-70%"]);
   
   return (
     <div className={styles.SliderParent}>
