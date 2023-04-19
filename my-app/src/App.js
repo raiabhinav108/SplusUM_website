@@ -11,6 +11,7 @@ import OurServices from "./components/ourServices/OurServices";
 import Footer from "./components/footer/Footer";
 import News from "./components/news/News";
 import Team from "./components/team/Team";
+import Contact from "./components/contact/Contact";
 
 
 
@@ -26,6 +27,7 @@ function App() {
       <ImageSlider/>
 
     <Team/>
+    <Contact/>
       <News/>
       <Footer/>
 
