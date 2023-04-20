@@ -1,0 +1,108 @@
+.fd_section{
+    min-height:730px;
+    background-image: url(https://arcstudio.liquid-themes.com/wp-content/uploads/2022/03/bg-4.jpg);
+    background-position:center center ;
+    background-size: cover;
+    
+    padding: 90px 6% 50px;
+   font-family: 'Poppins', sans-serif;
+}
+.heading_fd{
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1.1em;
+    letter-spacing: 0.6px;
+}
+.divider_fd{
+    margin: 0.8em 0;
+    width:97%;
+    color: #000000;
+ 
+}
+
+
+
+.heading_main1 {
+    color: #000000;
+    width:50%;
+    font-size: 2.7rem;
+    font-weight: 500;
+    text-transform: none;
+    line-height: 3.2rem;
+    letter-spacing: 0px;
+    padding-top: 1.3em;
+    padding-bottom: 1.8em;
+    
+}
+
+
+
+
+.imageparent{
+    display: flex;
+   padding-top: 4em;
+   width:88%;
+  
+   z-index:1;
+   height:100%;
+    
+}
+
+.arrows_fd{
+    
+    display: flex;
+    
+ 
+    
+  gap:2em;
+  
+
+}
+.arrows_fd img{
+    height: 20px;
+    width: 15px;
+}
+.fd_desc p{
+    margin-bottom: 2em;
+    font-size: 0.85em;
+    line-height: 1.5rem;
+    letter-spacing: 0.02rem;
+    
+}
+.fd_para h3{
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.quotes_img{
+    margin-bottom: -3.7%;
+    margin-left: -4.4%;
+    
+
+}
+.quotes_img1{
+    margin-bottom: -3.7%;
+    margin-left: -4.1%;
+    margin-right: 28%;
+
+}
+
+@media only screen and (max-width:767px) {
+.blow{
+    display: none;
+}
+.heading_main1 {
+    color: #000000;
+    width:70%;
+    padding-bottom: 1em;
+
+    
+}
+.quotes_img1{
+    margin-left: 1%;
+}
+}
+  
