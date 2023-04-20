@@ -13,6 +13,7 @@ import News from "./components/news/News";
 import Team from "./components/team/Team";
 import Contact from "./components/contact/Contact";
 import ContactPage from "./components/contactPage/ContactPage";
+import Testimonials from "./components/testimonials/Testimonials";
 
 
 
@@ -30,7 +31,7 @@ function App() {
       <ImageSlider/>
       <OurServices/>
     <Team/>
-    
+    <Testimonials/>
       <News/>
       <Footer/>
 
