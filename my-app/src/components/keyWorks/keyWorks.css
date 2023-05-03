@@ -1,0 +1,52 @@
+
+  
+  .marquee {
+
+    height: 115px;
+    overflow-x: hidden;
+  }
+  .marquee2 {
+
+    height: 130px;
+    overflow-x: hidden;
+  }
+  
+  .track {
+    position: absolute;
+    white-space: nowrap;
+    will-change: transform;
+    animation: marquee 90s linear infinite;
+  }
+  .track2 {
+    position: absolute;
+    white-space: nowrap;
+    will-change: transform;
+    animation: marquee2 500s linear infinite;
+  }
+  
+  @keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+  
+  @keyframes marquee2 {
+  from { transform: translateX(-50%); }
+to { transform: translateX(250%); }
+  }
+  strong{
+    margin: 0;
+     border: 2px solid;
+      padding: 0.35em 0.75em 0.25em;
+       border-radius: 3em;
+        white-space: nowrap;
+        font-weight:500;
+        margin:0 55px;
+  }
+  .text_v{
+    font-size:38px;
+    font-weight:500;
+    line-height:1.275em;
+    letter-spacing: 0px;
+    color:#000000;
+    font-family: "Poppins", Sans-serif
+  }

@@ -14,6 +14,7 @@ import Team from "./components/team/Team";
 import Contact from "./components/contact/Contact";
 import ContactPage from "./components/contactPage/ContactPage";
 import Testimonials from "./components/testimonials/Testimonials";
+import KeyWorks from "./components/keyWorks/KeyWorks";
 
 
 
@@ -30,6 +31,7 @@ function App() {
       <About/>
       <ImageSlider/>
       <OurServices/>
+      <KeyWorks/>
     <Team/>
     <Testimonials/>
       <News/>
