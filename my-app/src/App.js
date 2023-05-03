@@ -31,7 +31,7 @@ function App() {
       <About/>
       <ImageSlider/>
       <OurServices/>
-      <KeyWorks/>
+      
     <Team/>
     <Testimonials/>
       <News/>
