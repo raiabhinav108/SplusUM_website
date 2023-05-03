@@ -1,14 +1,18 @@
 
-  
+  .main_parent{
+overflow: hidden;
+width: 100vw;
+max-width: 100%;
+  }
   .marquee {
 
     height: 115px;
-    overflow-x: hidden;
+    
   }
   .marquee2 {
 
     height: 130px;
-    overflow-x: hidden;
+    
   }
   
   .track {
