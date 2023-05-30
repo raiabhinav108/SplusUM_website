@@ -1,9 +1,9 @@
 import styles from "./about.module.css";
 import { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-
+import { useMediaQuery } from "@material-ui/core";
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
-
+import SwiperCore from 'swiper/core';
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
@@ -11,14 +11,16 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import {  motion} from "framer-motion";
 
+
+SwiperCore.use([Pagination]);
 const About = () => {
   const [number, setNumber] = useState(1);
-
+  const isTablet = useMediaQuery("(max-width: 1024px)");
   const handleSlideChange = (swiper) => {
       const activeIndex = swiper.activeIndex + 1; // Swiper indexes start from 0
       setNumber(activeIndex);
     };
-  
+    const shouldDisplayPagination = isTablet;
   return (
     <div className={styles.main_about}>
       <p>About</p>
@@ -95,6 +97,8 @@ const About = () => {
               </div>
             </SwiperSlide>
           </Swiper>
+          {shouldDisplayPagination && <div className="swiper-pagination"></div>}
+
           <div className={styles.arrows_abt}>
   <img
     className="arrow3"

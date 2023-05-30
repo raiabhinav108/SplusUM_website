@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import React, { useState } from 'react';
 import { useMediaQuery } from "@material-ui/core";
+import SwiperCore from 'swiper/core';
 // Import Swiper styles
 import "swiper/css";
 import 'swiper/css';
@@ -12,6 +13,8 @@ import 'swiper/css/scrollbar';
 import { useScroll,motion,useTransform } from "framer-motion";
 
 import './testimonials.css'
+
+SwiperCore.use([Pagination]);
 
 
 const Testimonials = () => {
@@ -26,6 +29,7 @@ const Testimonials = () => {
         setNumber(activeIndex);
       };
     let y = useTransform(scrollYProgress,[0,1],["100%","-70%"]);
+    const shouldDisplayPagination = isTablet;
   return (
     <div className="fd_section">
     <div className="heading_fd">
@@ -53,11 +57,15 @@ const Testimonials = () => {
 
         onSlideChange={handleSlideChange} 
         onSwiper={(swiper) => console.log(swiper)}
+        pagination={shouldDisplayPagination ? { clickable: true } : false}
         navigation={ { prevEl: ".arrow3",
               nextEl: ".arrow4",
             }}
       >
-                   
+
+
+                         
+ 
              <SwiperSlide><div className="imageparent"><motion.div style={{y}} className="sliderimages" >
 
         <div className="fd_desc"><p>Urban design draws together the many strands of place-making, environmental stewardship, social equity and economic viability into the creation of places with distinct beaut.</p></div>
@@ -83,19 +91,20 @@ const Testimonials = () => {
         </motion.div></div></SwiperSlide>
         
         
-        <SwiperSlide><div className="imageparent"><motion.div style={{y}} >
+        <SwiperSlide className="dissp_fd"><div className="imageparent"><motion.div style={{y}} >
             <div className="fd_desc"><p>Through a unique combination of engineering, construction and design disciplines and expertise, Concor delivers world class infrastructure solutions and more.</p></div>
             <div className="fd_para"><h3>Jose Sanchez, liquid</h3></div>
         </motion.div></div></SwiperSlide>
 
   
-        <SwiperSlide><div className="imageparent"><motion.div style={{y}} className="sliderimages" >
+        <SwiperSlide className="dissp_fd"><div className="imageparent"><motion.div style={{y}} className="sliderimages" >
         <div className="fd_desc"><p>Our process applies techniques from a variety of disciplines, values distinction in detail and gives careful. Since the 1980s, as the complexity of buildings began to increase.</p></div>
             <div className="fd_para"><h3>Daniel mark, Envato</h3></div>
         </motion.div></div></SwiperSlide>
         
-
+   
       </Swiper>
+      {shouldDisplayPagination && <div className="swiper-pagination"></div>}
     </div>
 
     <div className="arrows_fd">
