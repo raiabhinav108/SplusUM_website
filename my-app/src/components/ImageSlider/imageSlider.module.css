@@ -1,13 +1,11 @@
 .SliderParent{
-    height: 400px;
-    width: 85%;
-    margin: 0 auto;
-    margin-top: 60px;
+    padding: 0 6.5% ;
+   
    
     
 }
 .SliderParent img{
-    height: 400px;
+   height: 400px;
     width: 100%;
     
 }
@@ -20,16 +18,27 @@
     width: 100%;
     
 }
-.arrows{
+.arrows_slider{
     margin-left: 1rem;
     display: flex;
     height: 0;
     width: 20%;
     gap: 50%;
-    padding-bottom: 100px;
+    padding-bottom: 80px;
 
 }
-.arrows img{
+.arrows_slider img{
     height: 60px;
     width: 20px;
+}
+@media only screen and (max-width:767px) {
+    .arrows_slider{
+        display: none;
+    }
+    .SliderParent{
+        padding: 0 ;
+       
+       
+        
+    }
 }
