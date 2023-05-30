@@ -1,9 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
 .OurServicesParent{
     padding: 9em 6.5% 50px;
     
     font-family: "poppins";
     
+}
+.padup{
+    padding:0%;
+}
+.writtenpart{
+    width:82%;
 }
 .horizontalrule{
     
@@ -14,26 +20,42 @@
     background-color: #000000;
 }
 .Headingpart{
-    font-size: 20px;
-    padding-bottom: 2em;
+    color: #000000;
+    width:50%;
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-transform: none;
+    line-height: 3rem;
+    letter-spacing: 1.3px;
+    
+    padding-bottom: 1.5em;
 }
 .mid{
-    width: 100%;
+    
     display: flex;
-    gap:1em
+   
 }
 .Contentpart{
-    font-weight: 300;
+    
+    font-size: 0.85em;
+    line-height: 1.5rem;
+    letter-spacing: 0.02rem;
+    width: 85%;
+    /* font-weight: 300;
     font-size: 14px;
-    width: 80%;
+    width: 80%; */
 }
 .Accordion{
-    width: 100%;
-    padding: 0;
+    width: 100%;   
+}
+.Accordion h4{
+    font-weight: 600;
+font-size: 18px;
+line-height: 1.5em;
     
 }
 .buttonParent{
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
 
@@ -49,3 +71,35 @@
     font-weight: 300;
     font-size: small; */
 }
+
+@media only screen and (max-width:1024px) {
+    .OurServicesParent{
+        padding: 6em 2%;   
+    }
+ 
+}
+@media only screen and (max-width:767px) {
+    .mid{
+    
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .writtenpart{
+        width: 100%;
+    }
+    .Contentpart{
+        width:100%;
+    }
+    .Accordion{
+        margin-top: 1.8em;
+   
+  
+    }
+    .Accordion h4{
+       
+    font-size: 14px;
+  
+        
+    }
+    }

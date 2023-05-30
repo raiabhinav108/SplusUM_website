@@ -89,7 +89,34 @@
     margin-right: 28%;
 
 }
-
+@media only screen and (max-width:1024px) {
+    .fd_section{
+        padding: 6em 2% 6em 2%;
+    }
+    .heading_main1{
+    padding-bottom: 1.1em;
+    }
+    .diss{
+       display:none;
+    
+    }
+    .image_parent{
+        width:100%;
+    }
+    .fd_desc p{
+   width:95%;
+        
+    }
+ 
+    .quotes_img1{
+        
+        margin-bottom: -5%;
+        margin-left: -1.4%;
+        margin-right: 35%;
+    
+    }
+ 
+}
 @media only screen and (max-width:767px) {
 .blow{
     display: none;
@@ -103,6 +130,7 @@
 }
 .quotes_img1{
     margin-left: 1%;
+    
 }
 }
   
