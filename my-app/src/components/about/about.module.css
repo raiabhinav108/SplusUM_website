@@ -10,7 +10,7 @@
 
 .hr{
     
-    width: 99%;
+    width: 100%;
     margin: 0.8em 0 60px;
   
     height: 1px;
@@ -20,7 +20,7 @@
 
 .yo{
  
-    padding: 9em 5.5% 50px;
+    padding: 9em 6.5% 50px;
     background-image: url(https://arcstudio.liquid-themes.com/wp-content/uploads/2022/03/bg-22.jpg);
     background-position: bottom center;
     background-size: cover;
@@ -34,9 +34,9 @@
     line-height: 1.1em;
     letter-spacing: 0.6px;
 }
-hr{
-    width: 99%;
-    margin: 5% 0 60px 0.8em;
+.hr2{
+    width: 100%;
+    margin: 5% 0 60px;
   
     height: 1px;
     background-color: #000000;
@@ -59,18 +59,11 @@ hr{
     height: 100px;
     margin-top: 100px;
 }
-.pic{
-    width: 582px;
-    height: 590px;
 
-    margin: 0 auto;
-    
-}
 
 .pic img{
     width: 100%;
-    
-    margin: 0 auto;
+
 }  
 .arrows{
     display: flex;
