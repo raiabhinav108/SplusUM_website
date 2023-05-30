@@ -4,8 +4,26 @@
     margin-top: 60px;
     font-family: "poppins";
     display: flex;
-    gap:1%;
     
+    
+}
+
+.aboutHead{
+    color: #000000;
+    width:60%;
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-transform: none;
+    line-height: 3.2rem;
+    letter-spacing: 0.07em;
+    padding-bottom: 200px;
+}
+.aboutBody{
+    margin-bottom: 2em;
+    font-size: 0.85em;
+    line-height: 1.5rem;
+    letter-spacing: 0.02rem;
+    width:72%;
 }
 
 .hr{
@@ -18,14 +36,14 @@
     
 }
 
-.yo{
+.main_about{
  
     padding: 9em 6.5% 50px;
     background-image: url(https://arcstudio.liquid-themes.com/wp-content/uploads/2022/03/bg-22.jpg);
     background-position: bottom center;
-    background-size: cover;
+    background-size:cover;
 }
-.yo p{
+.main_about p{
     color: #000000;
     font-family: "Poppins", Sans-serif;
     font-size: 13px;
@@ -48,32 +66,104 @@
     margin-top: 60px;
 }
 .swiperSection{
-    width: 50%;
-    height: 1px;
-}
-.aboutimg{
-    width: 50%;
-}
-.aboutimg img{
-    width: 100%;
-    height: 100px;
-    margin-top: 100px;
+    width: 55%;
+   
 }
 
 
-.pic img{
-    width: 100%;
+
+.pic {
+    width: 50%;
+    
 
 }  
-.arrows{
-    display: flex;
-    width: 20%;
-    margin-left: 50px;
-    margin-top: -20px;
-   
-    
+.pic img{
+    width:100%;
+    height: auto;
 }
-.arrows img{
-    margin: 0 auto;
-    width: 20px;
+
+.arrows_abt{
+    
+    display: flex;
+    
+ 
+    
+  gap:2.4em;
+  
+
+}
+.arrows_abt img{
+    height: 20px;
+    width: 15px;
+}
+@media only screen and (max-width:1024px) {
+    .main_about{
+        padding: 6em 2%;   
+    }
+    .aboutBody{
+        margin-bottom: 0;
+        font-size: 0.73em;
+        line-height: 1.5rem;
+        letter-spacing: 0.005rem;
+        width:96%;
+        margin-bottom: 2em;
+    }
+    .arrows_abt{
+        
+      gap:1.5em;
+      margin-bottom: 2em;
+    }
+    .arrows_abt img{
+        height: 20px;
+        width: 15px;
+    }
+    .aboutHead{
+        
+        width:100%;
+        font-size: 1.1rem;
+
+    }
+    .pic img{
+       
+        height: auto;
+    }
+}
+@media only screen and (max-width:767px) {
+    .aboutSection{
+        display: flex;
+        flex-direction: column;
+    }
+    .aboutHead{
+        color: #000000;
+        width:60%;
+        font-size: 0.9rem;
+        font-weight: 300;
+        text-transform: none;
+        line-height: 2.6rem;
+        letter-spacing: 0.05em;
+        padding-bottom: 140px;
+    }
+    .swiperSection{
+        width: 100%;
+       
+    }
+    .arrows_abt{
+        
+      gap:1.5em;
+      margin-bottom: 2em;
+    }
+    .pic {
+        width: 100%;
+        margin-bottom: 2.5em;
+    
+    }  
+    .aboutBody{
+        margin-bottom: 0;
+        font-size: 0.65em;
+        line-height: 1.5rem;
+        letter-spacing: 0.004rem;
+        width:100%;
+        margin-bottom: 1em;
+    }
+
 }
