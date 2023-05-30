@@ -9,7 +9,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
-import { useScroll, useTransform ,motion} from "framer-motion";
+import {  motion} from "framer-motion";
 
 const About = () => {
   const [number, setNumber] = useState(1);
