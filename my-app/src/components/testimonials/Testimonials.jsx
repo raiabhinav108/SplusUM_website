@@ -65,7 +65,7 @@ const Testimonials = () => {
         
         
         <SwiperSlide><div className="imageparent"><motion.div style={{y}} >
-            <div className="fd_desc"><p>Through a unique combination of engineering, construction and design disciplines and expertise, Concor delivers world class infrastructure solutions and more.</p></div>
+            <div className="fd_desc"><p>Through a unique combination of engineering, construction and design disciplines and expertise, Concor delivers world class infrastructure .</p></div>
             <div className="fd_para"><h3>Jose Sanchez, liquid</h3></div>
         </motion.div></div></SwiperSlide>
 
@@ -101,6 +101,7 @@ const Testimonials = () => {
   <img
     className="arrow3"
     src="images/arrow-left-solid.svg"
+    alt="images"
     onClick={() => setNumber(prevNumber => Math.max(prevNumber , 1))}
   ></img>
 
@@ -109,13 +110,12 @@ const Testimonials = () => {
   <img
     className="arrow4"
     src="images/arrow-right-solid.svg"
+    alt="images"
     onClick={() => setNumber(prevNumber => Math.min(prevNumber , 4))}
   ></img>
 </div>
 
       </div>
-    
-
   )
 }
 

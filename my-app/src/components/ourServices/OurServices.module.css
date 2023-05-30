@@ -1,18 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500&display=swap');
 .OurServicesParent{
-    width: 85%;
-    margin: 0 auto;
-    margin-top: 100px;
+    padding: 9em 5.5% 50px;
+    
     font-family: "poppins";
-    margin-bottom: 100px;
+    
 }
 .horizontalrule{
     
-    width: 100%;
-    margin: 0 auto;
-    margin-bottom: 50px;
+    width: 99%;
+    margin: 0.8em 0 60px;
+  
     height: 1px;
-    background-color: black;
+    background-color: #000000;
 }
 .Headingpart{
     font-size: 20px;
@@ -38,12 +37,15 @@
 }
 
 
-
-
-
-
 .smallOurServices{
-    font-family: "poppins";
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1.1em;
+    letter-spacing: 0.6px;
+    /* font-family: "poppins";
     font-weight: 300;
-    font-size: small;
+    font-size: small; */
 }
