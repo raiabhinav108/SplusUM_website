@@ -21,7 +21,7 @@ const ImageSlider = () => {
     <div >
     <Swiper
       modules={[Navigation, Pagination, Scrollbar, A11y]}
-
+      speed={200}
         spaceBetween={100}
         slidesPerView={isMobile ? 1 : 1.29}
        

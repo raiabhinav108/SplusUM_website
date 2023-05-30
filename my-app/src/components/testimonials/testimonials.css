@@ -120,6 +120,10 @@
  
 }
 @media only screen and (max-width:767px) {
+    .fd_section{
+        padding-left:4%;
+        padding-right: 4%;
+    }
 .blow{
     display: none;
 }

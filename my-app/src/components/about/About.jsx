@@ -30,7 +30,7 @@ const About = () => {
             modules={[Navigation, Pagination, Scrollbar, A11y]}
             spaceBetween={50}
             slidesPerView={1}
-  
+            speed={1000}
             onSlideChange={handleSlideChange} 
         onSwiper={(swiper) => console.log(swiper)}
         navigation={ { prevEl: ".arrow3",

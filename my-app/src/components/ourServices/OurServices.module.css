@@ -79,6 +79,13 @@ line-height: 1.5em;
  
 }
 @media only screen and (max-width:767px) {
+    .OurServicesParent{
+        padding-left:4%;
+        padding-right:4%;
+        
+        
+        
+    }
     .mid{
     
         display: flex;

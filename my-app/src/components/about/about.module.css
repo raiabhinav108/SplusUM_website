@@ -131,6 +131,10 @@
     }
 }
 @media only screen and (max-width:767px) {
+    .main_about{
+        padding-left: 4%;
+        padding-right: 4%;
+    }
     .aboutSection{
         display: flex;
         flex-direction: column;
