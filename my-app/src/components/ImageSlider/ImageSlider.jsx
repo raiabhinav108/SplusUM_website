@@ -7,11 +7,13 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
+import { useMediaQuery } from "@material-ui/core";
 import { useScroll,motion,useTransform } from "framer-motion";
 
 
 const ImageSlider = () => {
   let {scrollYProgress} = useScroll();
+  const isMobile = useMediaQuery("(max-width: 767px)");
     let y = useTransform(scrollYProgress,[0,1],["100%","-70%"]);
   
   return (
@@ -21,7 +23,8 @@ const ImageSlider = () => {
       modules={[Navigation, Pagination, Scrollbar, A11y]}
 
         spaceBetween={100}
-        slidesPerView={1.29}
+        slidesPerView={isMobile ? 1 : 1.29}
+       
         onSlideChange={() => console.log("slide change")}
         onSwiper={(swiper) => console.log(swiper)}
         navigation={ { prevEl: ".arrow3",
@@ -35,7 +38,7 @@ const ImageSlider = () => {
       </Swiper>
     </div>
 
-      <div className={styles.arrows}>
+      <div className={styles.arrows_slider}>
       <img className="arrow3" src="images/arrow-left-solid.svg"  ></img>
       <img className="arrow4" src="images/arrow-right-solid.svg"  ></img>
       </div>

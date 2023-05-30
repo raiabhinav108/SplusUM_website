@@ -15,6 +15,7 @@ import Contact from "./components/contact/Contact";
 import ContactPage from "./components/contactPage/ContactPage";
 import Testimonials from "./components/testimonials/Testimonials";
 import KeyWorks from "./components/keyWorks/KeyWorks";
+import AboutSub from "./components/aboutSub/AboutSub";
 
 
 
@@ -29,7 +30,9 @@ function App() {
       <Projects/>
       <Contact/>
       <About/>
+    
       <ImageSlider/>
+      <AboutSub/>
       <OurServices/>
       
     <Team/>
