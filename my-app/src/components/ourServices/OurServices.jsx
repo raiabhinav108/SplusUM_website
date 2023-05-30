@@ -42,76 +42,93 @@ const OurServices = () => {
         <div className={styles.writtenpart}>
           <div className={styles.Headingpart}>
             <h1>Functional</h1>
-            <h1>-Ipsum</h1>
+            <h1>-Spaces</h1>
           </div>
           <div className={styles.Contentpart}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam semper
-            risus felis, at commodo leo vehicula sed. Donec pharetra nisl eu
-            tellus suscipit lacinia. Sed sollicitudin cursus nisl, eget pulvinar
-            turpis. Ut dapibus et mi 
+          Through a unique combination of engineering, construction and design disciplines and expertise, Concor delivers world class infrastructure solutions to customers and stakeholders across a
+
             <div className={styles.buttonParent}>
             <button className='cont_btn'></button>
             </div>
           </div>
         </div>
         <div className={styles.Accordion}>
-        <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
+        <Accordion  expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
         <AccordionSummary
+        style={{padding:0}}
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
           id="panel1a-header"
+         
         >
-          <Typography><h4>Accordion 1</h4></Typography>
+          <Typography ><h4>Structural architecture</h4></Typography>
         </AccordionSummary>
-        <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+        <AccordionDetails
+         style={{padding:0,
+         marginTop:15,
+         marginBottom:15,
+         }}>
+    
+          <Typography style={{  fontSize: 0.95+'rem',
+         lineHeight: 1.5+'rem',letterSpacing: 0.035+'em'}}>
+          Urban design draws together the many strands of place-making, environmental stewardship, social equity and economic viability into the creation of places with distinct beauty and identity.
           </Typography>
         </AccordionDetails>
       </Accordion>
       <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
         <AccordionSummary
+        style={{padding:0}}
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2a-content"
           id="panel2a-header"
         >
-          <Typography><h4>Accordion 2</h4></Typography>
+          <Typography><h4>Residence</h4></Typography>
         </AccordionSummary>
-        <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+        <AccordionDetails style={{padding:0,
+         marginTop:15,
+         marginBottom:15,
+         }}>
+          <Typography style={{  fontSize: 0.95+'rem',
+         lineHeight: 1.5+'rem',letterSpacing: 0.035+'em'}}>
+          Urban design draws together the many strands of place-making, environmental stewardship, social equity and economic viability into the creation of places with distinct beauty and identity.
           </Typography>
         </AccordionDetails>
       </Accordion>
       <Accordion expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
         <AccordionSummary
+        style={{padding:0}}
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2a-content"
           id="panel2a-header"
         >
-          <Typography><h4>Accordion 3</h4></Typography>
+          <Typography><h4>Award-winning Architecture</h4></Typography>
         </AccordionSummary>
-        <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+        <AccordionDetails style={{padding:0,
+         marginTop:15,
+         marginBottom:15,
+         }}>
+          <Typography style={{  fontSize: 0.95+'rem',
+         lineHeight: 1.5+'rem',letterSpacing: 0.035+'em'}}>
+          Urban design draws together the many strands of place-making, environmental stewardship, social equity and economic viability into the creation of places with distinct beauty and identity.
           </Typography>
         </AccordionDetails>
       </Accordion>
       <Accordion expanded={expanded === 'panel4'} onChange={handleChange('panel4')}>
         <AccordionSummary
+        style={{padding:0}}
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2a-content"
           id="panel2a-header"
         >
-          <Typography><h4>Accordion 4</h4></Typography>
+          <Typography><h4>Renovation</h4></Typography>
         </AccordionSummary>
-        <AccordionDetails>
-          <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+        <AccordionDetails style={{padding:0,
+         marginTop:15,
+         marginBottom:15,
+         }}>
+          <Typography style={{  fontSize: 0.95+'rem',
+         lineHeight: 1.5+'rem',letterSpacing: 0.035+'em'}}>
+          Urban design draws together the many strands of place-making, environmental stewardship, social equity and economic viability into the creation of places with distinct beauty and identity.
           </Typography>
         </AccordionDetails>
       </Accordion>

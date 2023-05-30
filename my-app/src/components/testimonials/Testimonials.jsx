@@ -19,7 +19,8 @@ const Testimonials = () => {
     
     let {scrollYProgress} = useScroll();
     const [number, setNumber] = useState(1);
-    const isMobile = useMediaQuery("(max-width: 600px)");
+    const isMobile = useMediaQuery("(max-width: 767px)");
+    const isTablet = useMediaQuery("(max-width: 1024px)");
     const handleSlideChange = (swiper) => {
         const activeIndex = swiper.activeIndex + 1; // Swiper indexes start from 0
         setNumber(activeIndex);
@@ -43,12 +44,12 @@ const Testimonials = () => {
         <div className="main_pagination" >
         <img className="quotes_img1" src="https://arcstudio.liquid-themes.com/wp-content/uploads/2022/03/quote.svg" alt="Quote" width="128" height="83"></img>
         <img className="quotes_img1 blow" src="https://arcstudio.liquid-themes.com/wp-content/uploads/2022/03/quote.svg" alt="Quote" width="128" height="83"></img>
-        <img className="quotes_img blow" src="https://arcstudio.liquid-themes.com/wp-content/uploads/2022/03/quote.svg" alt="Quote" width="128" height="83"></img>
+        <img className="quotes_img blow diss " src="https://arcstudio.liquid-themes.com/wp-content/uploads/2022/03/quote.svg" alt="Quote" width="128" height="83"></img>
     <Swiper style={{ width: '100%' }}
       modules={[Navigation, Pagination, Scrollbar, A11y]}
 
         speed={1500}
-        slidesPerView={isMobile ? 1 : 3}
+        slidesPerView={isMobile ? 1 : (isTablet ? 2 : 3)}
 
         onSlideChange={handleSlideChange} 
         onSwiper={(swiper) => console.log(swiper)}
