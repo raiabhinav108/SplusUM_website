@@ -1,8 +1,15 @@
 import React from 'react'
 import './contact.css'
-import { Link } from 'react-router-dom'
 
+import ContactPage from "../contactPage/ContactPage";
+import { useState } from 'react';
 const Contact = () => {
+  const[open, setOpen]=useState(false);
+
+  const openDialog=()=>{
+    setOpen(true);
+  }
+
   return (
     <div className="contact_sec">
      <div className="hed_sec">
@@ -14,9 +21,13 @@ const Contact = () => {
             </div>
             </div>
             <div className="cont">
-            <Link to='sign-up'>
-        <button className='cont_btn'></button>
-    </Link>
+           
+            
+   
+    
+        <button onClick={() => openDialog()} className='cont_btn'></button>
+        <ContactPage open={open} setOpen={setOpen}/>
+   
             </div>
     </div>
   )

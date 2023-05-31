@@ -8,15 +8,11 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 import { useEffect, useState } from "react";
-import ContactPage from "../contactPage/ContactPage";
+
 
 const Slider = () => {
 
-const[open, setOpen]=useState(false);
 
-const openDialog=()=>{
-  setOpen(true);
-}
 
 
 
@@ -106,8 +102,7 @@ const openDialog=()=>{
           </div>
         </SwiperSlide>
       </Swiper>
-    <div className= {styles.pop_up}><button onClick={() => openDialog()}>CLick me</button></div>
-    <ContactPage open={open} setOpen={setOpen}/>
+  
     </div>
   );
 };
