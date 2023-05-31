@@ -49,13 +49,13 @@ function Navbar() {
             onMouseLeave={onMouseLeave}
           >
             <Link
-              to='/studio'
+              to='/single'
               className='nav-links'
               onClick={closeMobileMenu}
             >
-              THE STUDIO
+              TOB
             </Link>
-            {dropdown && <Dropdown />}
+            {/*{dropdown && <Dropdown />}*/}
           </li>
           <li className='nav-item'>
             <Link
@@ -75,6 +75,7 @@ function Navbar() {
               PROJECTS
             </Link>
           </li>
+          
           <li className='nav-item'>
             <Link
               to='/contact'

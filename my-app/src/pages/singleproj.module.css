@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500&display=swap');
+.singleparent{
+    background-color: rgba(0,24,40,.98);
+    
+}
+.tob{
+    color: white;
+    display: flex;
+   margin-left: 10.5%;
+   font-size: 44px;
+    line-height: 1.45;
+    font-family: 'poppins';
+    font-weight: 700;
+    
+    height: 162px;
+    align-items: center;
+}
+.information{
+    width: 95%;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    font-family: 'poppins';
+}
+.line{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    width: 79%;
+    background-color: rgba(255,255,255,.5);;
+}
+.hore{
+    width: 100%;
+    margin: 0 auto;
+}
+.information{
+    padding: 20px 20px
+}
+.infohead{
+    text-transform: uppercase;
+    font-size: 12px;
+    color: rgba(255,255,255,.5);
+    letter-spacing: 1.27px;
+    line-height: 22px;
+    display: block;
+
+}
+.infoabout{
+    font-size: 19px;
+    line-height: 1.65;
+    font-family: Apercu,Helvetica,sans-serif;
+    font-weight: 300;
+    margin-bottom: 20px;
+    color: rgba(255,255,255,.85);
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    font-family: "poppins";
+}
+.introhead{
+    width: 75%;
+    font-size: 2em;
+    font-style: bold;
+    font-weight: 600;
+    margin-bottom: 20px ;
+}
+.introbody{
+    width: 75%;
+    margin-bottom: 60px ;
+}
+.swipperhead{
+    font-size: 1.5em;
+    font-style: bold;
+    font-weight: 600;
+    font-family: "poppins";
+    margin-bottom: 20px;
+}
+.swipper{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.arrows_slider{
+    margin-left: 1rem;
+    display: flex;
+    height: 0;
+    width: 20%;
+    gap: 1em;
+    padding-bottom: 80px;
+
+}
+.arrows_slider img{
+    height: 60px;
+    width: 16px;
+}
+.counter{
+    display: flex;
+    margin-top: 20px;
+    font-family: "poppins";
+    letter-spacing: 1em;
+}
+.counter div{
+    font-size: 1em;
+    margin-left: 2px;
+}
+.changingno{
+    padding-left: 10px;
+}
+.void{
+    height: 120px;
+}
+@media only screen and (max-width:767px) {
+    .arrows_slider{
+        display: none;
+    }
+    .SliderParent{
+        padding: 0 ;
+       
+       
+        
+    }
+}
