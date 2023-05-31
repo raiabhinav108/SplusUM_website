@@ -1,52 +1,124 @@
-import { useScroll, useTransform,motion, delay } from "framer-motion";
+import { useScroll,motion} from "framer-motion";
 import styles from "./projects.module.css";
+
+
+
 const Projects = () => {
-  let {scrollYProgress} =useScroll();
-  let y = useTransform(scrollYProgress,[0,1],["5%","-50%"]);
-  let z = useTransform(scrollYProgress,[0,1],["0%","-47%"]);
+
+
   return (
-    <div style={{backgroundColor:"#f8f8f8"}}>
+    
       <div className={styles.Projectsets}>
         <div className={styles.headplussub}> 
-          <div className={styles.head}>
+        <div className={styles.intro}>
+          CASE STUDIES
+        </div>
+          <div className={styles.head_pj}>
             <h1>Recent Projects</h1>
           </div>
-          <div className={styles.subhead}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id
-            nibh varius, fringilla enim ut, efficitur erat.
+          <div className={styles.subhead_pj}>
+          Hub Construction employs over 2000 employees, the majority of whom are based on project sites. We embrace holistic development.
           </div>
         </div>
 
         <div className={styles.cardsSet}>
-          <div className={styles.card}>
-            <div  className={styles.cardimg}><motion.img style={{y}} className={styles.projimage}   src="https://arcstudio.liquid-themes.com/wp-content/uploads/2022/03/Slider.jpg" /></div>
+          <div  className={styles.card_l}>
+         
+            <div  className={styles.cardimg}>
+            <motion.img id="zoomImage"  className={styles.projimage}src="https://arcstudio.liquid-themes.com/wp-content/uploads/2022/03/Img-2.jpg" />
+            </div>
+        
+        
             <div className={styles.cardDescrip}>
             <div className={styles.projehead}>
-                Lorem Ipsum
-                <div>
-                <a href="#"><u>Explore project</u></a>
-              </div>
+            <div className={styles.projemainhead}>
+                <h4>South Florida Towers</h4>
+                </div>
+             
+              
               
               </div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id nibh varius, fringilla enim ut, efficitur erat</p>
+              <div className={styles.projepara}>
+              <p>Our process applies techniques from a variety of disciplines, values distinction in detail and gives.
+</p>
+            </div>
             </div>
           </div>
-          <div className={styles.card}>
-            <div className={styles.cardimg}><motion.img style={{y}} className={styles.projimage} src="https://arcstudio.liquid-themes.com/wp-content/uploads/2022/03/Slider.jpg" /></div>
+          <div  className={styles.card_r}>
+          
+    
+            <div  className={styles.cardimg}>
+            <motion.img className={styles.projimage}  src="https://arcstudio.liquid-themes.com/wp-content/uploads/2022/03/Img-2.jpg" />
+            </div>
+         
+           
             <div className={styles.cardDescrip}>
-              <div className={styles.projehead}>
-                Lorem Ipsum
-                <div>
-                <a href="#"><u>Explore project</u></a>
+            <div className={styles.projehead}>
+            <div className={styles.projemainhead}>
+                <h4>South Florida Towers</h4>
+                </div>
+             
+              
+             
+              
               </div>
-              </div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id nibh varius, fringilla enim ut, efficitur erat</p>
+              <div className={styles.projepara}>
+              <p>Our process applies techniques from a variety of disciplines, values distinction in detail and gives.
+</p>
+            </div>
             </div>
           </div>
+     
+          
+        </div>
+        <div className={styles.cardsSet_second}>
+          <div  className={styles.card_l}>
+          
+            <div  className={styles.cardimg}>
+            <motion.img className={styles.projimage}   src="https://arcstudio.liquid-themes.com/wp-content/uploads/2022/03/Img.jpg" />
+         
+       
+            </div>
+            <div className={styles.cardDescrip}>
+            <div className={styles.projehead}>
+            <div className={styles.projemainhead}>
+                <h4>Sydney Opera House</h4>
+                </div>
+             
+              
+              
+              </div>
+              <div className={styles.projepara}>
+              <p>Through a unique combination of engineering, construction and design disciplines and expertise,</p>
+            </div>
+            </div>
+          </div>
+          <div  className={styles.card_r}>
+          
+
+            <div  className={styles.cardimg}>
+            <motion.img className={styles.projimage}   src="https://arcstudio.liquid-themes.com/wp-content/uploads/2022/03/Img.jpg" />
+            </div>
+         
+            <div className={styles.cardDescrip}>
+            <div className={styles.projehead}>
+            <div className={styles.projemainhead}>
+                <h4>Sydney Opera House</h4>
+                </div>
+             
+              
+              
+              </div>
+              <div className={styles.projepara}>
+              <p>Through a unique combination of engineering, construction and design disciplines and expertise,</p>
+            </div>
+            </div>
+          </div>
+     
           
         </div>
       </div>
-    </div>
+   
   );
 };
 export default Projects;

@@ -1,67 +1,169 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500&display=swap');
 .Projectsets{
-    padding: 90px 6.5% 50px;
-    
-  
+    padding: 90px 6.5% 0;
+    font-family: "poppins";
+    justify-content: space-between;
     
 }
+.intro{
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1.1em;
+    letter-spacing: 0.6px;
+    margin-bottom: 1.5em;
+}
+
 .headplussub{
     width: 70%;
 }
-.head{
-    line-height: 4em;
-    font-family: "poppins";
+.head_pj{
+    color: #000000;
+    width:50%;
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-transform: none;
+    line-height: 3.2rem;
+    letter-spacing: 0px;
+    padding: 0.4em 0 0.8em;
+    
+    
    
 }
-.subhead{
+.subhead_pj{
     font-family: "poppins";
-    font-weight: 300;
+    font-weight: 400;
     padding-bottom: 50px;
     width: 70%;
+       
+    font-size: 0.85em;
+    line-height: 1.5rem;
+    letter-spacing: 0.02rem;
 }
-.card{
-    width: 45%;
-    min-width: 360px
+.card_l{
+
+
 }
+.card_r{
+  
+    padding-left: 20%;
+   
+    
+    
+}
+
 .cardimg{
-    width: 100%;
-    height: 600px;
-    overflow: hidden;
+    width:100%;
+    
 }
+
+
+  .projimage {
+    
+  }
 .cardimg img{
     width: 100%;
-    height: 900px;
+    height: auto;
 }
 .cardsSet{
+   
+   display: flex;
+   
+
+}
+.cardsSet_second{
     width: 100%;
     display: flex;
-    justify-content: space-between;
-    gap: 1em;
-    flex-wrap: wrap;
+   
+    margin-top: 5em;
+
 }
+.cardDescrip{
+    width:100%;
+    margin-top: 1.5em;
+    
+}
+
 .projehead{
     display: flex;
-    line-height: 3em;
-    font-family: "poppins";
-    font-size: 18px;
-    font-weight: 400;
     justify-content: space-between;
-    
+
+
 }
-.projehead div{
-    font-size: 15px;
-    font-weight: 300;
-    
+.projemainhead{
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 1em;
+    font-weight: 500;
+   
+    line-height: 1.1em;
+    letter-spacing: 0.6px;
+    margin-bottom: 1.5em;
 }
-.projehead div a{
-    text-decoration: none;
-    color: black;
+
+
+.projepara{
+    font-weight: 400;
+    padding-bottom: 50px;
+  
+    font-size: 0.85em;
+    line-height: 1.5rem;
+    letter-spacing: 0.03rem;
 }
-.cardDescrip p{
-    font-family: "poppins";
-    font-weight: 300;
-    font-size: 14px;
+
+@media only screen and (max-width:1024px) {
+    .Projectsets{
+        padding-left:2%;
+        padding-right:2%;
+    }
+    .card_r{
+        padding-left: 10%;
+    }
+    .subhead_pj{
+
+        width: 85%;
+    }
+    .head_pj{
+
+        width:100%;
+    }
 }
-.projimage{
-    transition: all 1s;
+@media only screen and (max-width:767px) {
+    .Projectsets{
+        padding-left:4%;
+        padding-right:4%;
+        
+        
+        
+    }
+    .cardsSet{
+   
+        display: flex;
+       flex-direction: column;
+     
+     }
+     .cardsSet_second{
+       margin-top: 0;
+        display: flex;
+       flex-direction: column;
+     
+     }
+
+     .card_r{
+        padding-left: 0%;
+    }
+    .subhead_pj{
+        
+        width: 100%;
+       
+    }
+    .headplussub{
+        width: 100%;
+    }
+    .head_pj{
+
+        width:100%;
+    }
 }

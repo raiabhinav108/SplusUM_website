@@ -6,6 +6,7 @@ const ContactPage = ({open,setOpen}) => {
     const handleClose=()=>{
         setOpen(false);
     }
+    
   return (
     <Dialog open={open} onClose={handleClose}>
         <div className="cnt_form">

@@ -51,9 +51,7 @@
     color: #f8f8f8;
 }
 @media (min-width: 200px) and (max-width: 1024px) {
-  .pop_up{
-    display:none;
-  }
+
     .description{
         left: 20px;
         width: 20%;

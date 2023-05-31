@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500&display=swap');
 .main_about{
  
-    padding: 9em 6.5% 0;
+    padding: 8em 6.5% 0;
     background-image: url(https://arcstudio.liquid-themes.com/wp-content/uploads/2022/03/bg-22.jpg);
     background-position: bottom center;
     background-size:cover;
@@ -135,7 +135,7 @@ justify-content: flex-start;
         display:none;
     }
     .main_about{
-        padding: 0 2%;   
+        padding: 8em 2% 0;   
     }
     .aboutBody{
         font-size: 0.73em;
