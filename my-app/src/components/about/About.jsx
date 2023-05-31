@@ -20,13 +20,14 @@ const About = () => {
       const activeIndex = swiper.activeIndex + 1; // Swiper indexes start from 0
       setNumber(activeIndex);
     };
-    const shouldDisplayPagination = isTablet;
+    const shouldDisplayPaginationNew = isTablet;
   return (
     <div className={styles.main_about}>
       <p>About</p>
       <div className={styles.hr}></div>
       <div className={styles.aboutSection}>
         <div className={styles.swiperSection}>
+        <div className={styles.swiperContainer}>
           <Swiper
             // install Swiper modules
             modules={[Navigation, Pagination, Scrollbar, A11y]}
@@ -35,6 +36,7 @@ const About = () => {
             speed={1000}
             onSlideChange={handleSlideChange} 
         onSwiper={(swiper) => console.log(swiper)}
+        pagination={shouldDisplayPaginationNew ? { clickable: true } : false}
         navigation={ { prevEl: ".arrow3",
               nextEl: ".arrow4",
             }}
@@ -97,8 +99,9 @@ const About = () => {
               </div>
             </SwiperSlide>
           </Swiper>
-          {shouldDisplayPagination && <div className="swiper-pagination"></div>}
-
+         
+          {shouldDisplayPaginationNew && <div style={{display:'flex',justifyContent:'flex-start'}} className="swiper-pagination"></div>}
+</div>
           <div className={styles.arrows_abt}>
   <img
     className="arrow3"
@@ -125,7 +128,6 @@ const About = () => {
         </div>
       </div>
      
-
       <div className={styles.hr2}>
         <hr></hr>
       </div>
