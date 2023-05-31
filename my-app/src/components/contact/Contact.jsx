@@ -5,6 +5,7 @@ import { Link } from 'react-router-dom'
 const Contact = () => {
   return (
     <div className="contact_sec">
+    
      <div className="hed_sec">
         <div className="hed1">
 <span> Have a project in mind?</span>
