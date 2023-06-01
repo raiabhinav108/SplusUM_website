@@ -18,8 +18,8 @@
     object-fit:cover;
     object-position: center;
 }
-.image img{
-width:163.48px;
+.cardimage img{
+width:470px;
  height:200px; 
 }
 .card_info{
@@ -55,8 +55,9 @@ width:163.48px;
         display: flex;
         flex-direction: column;
     }
-    .image img{
+    .cardimage img{
         width: 100%;
+       
     }
     .card_info{
         margin:0;

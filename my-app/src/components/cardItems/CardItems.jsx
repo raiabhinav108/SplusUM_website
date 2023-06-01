@@ -11,7 +11,7 @@ const CardItems = (props) => {
 
  
         
-        <div className="image">
+        <div className="cardimage">
         <img src="https://arcstudio.liquid-themes.com/wp-content/uploads/2020/09/post-1-700x450.jpg" class="post_img" alt=""  data-src="https://arcstudio.liquid-themes.com/wp-content/uploads/2020/09/post-1-700x450.jpg" />
         </div>
         <div className="card_info">
