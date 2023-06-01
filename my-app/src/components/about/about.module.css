@@ -28,11 +28,11 @@
 .aboutHead{
     color: #000000;
     width:60%;
-    font-size: 1.3rem;
+    font-size: 2.7rem;
     font-weight: 500;
     text-transform: none;
     line-height: 3.2rem;
-    letter-spacing: 0.07em;
+    letter-spacing: 0.02em;
     padding-bottom: 200px;
 }
 .aboutBody{
@@ -108,7 +108,7 @@ justify-content: flex-start;
   .swiperContainer .swiper-pagination-bullet {
     width: 7px;
     height: 7px;
-    background-color:red;
+  
     border-radius: 50%;
     margin: 0 40px;
     cursor: pointer;
@@ -154,9 +154,9 @@ justify-content: flex-start;
         width: 15px;
     }
     .aboutHead{
-        
+        letter-spacing: 0;
         width:100%;
-        font-size: 1.1rem;
+        font-size: 2.4rem;
 
     }
     .pic img{
@@ -179,11 +179,11 @@ justify-content: flex-start;
     .aboutHead{
         color: #000000;
         width:60%;
-        font-size: 0.9rem;
-        font-weight: 300;
+        font-size: 2rem;
+        font-weight: 500;
         text-transform: none;
-        line-height: 2.6rem;
-        letter-spacing: 0.05em;
+        line-height: 2.4rem;
+        letter-spacing: 0em;
         padding-bottom: 140px;
     }
 

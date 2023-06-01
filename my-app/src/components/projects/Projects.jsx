@@ -10,10 +10,10 @@ const Projects = () => {
     
       <div className={styles.Projectsets}>
         <div className={styles.headplussub}> 
-        <div className={styles.intro}>
+        <div className={styles.intro1}>
           CASE STUDIES
         </div>
-          <div className={styles.head_pj}>
+          <div className={styles.pjofhead}>
             <h1>Recent Projects</h1>
           </div>
           <div className={styles.subhead_pj}>
