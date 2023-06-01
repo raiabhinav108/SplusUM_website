@@ -43,7 +43,7 @@
     width:72%;
 }
 
-.hr{
+.hr1{
     
     width: 100%;
     margin: 0.8em 0 60px;
@@ -102,23 +102,23 @@
  .swiperContainer .swiper-pagination {
     display: flex;
 justify-content: flex-start;
-    margin-top: 20px;
+  
   }
   
   .swiperContainer .swiper-pagination-bullet {
-    width: 7px;
-    height: 7px;
-  
+    width: 6px;
+    height: 6px;
+    background-color: #999;
     border-radius: 50%;
-    margin: 0 40px;
+    margin: 0 50px;
     cursor: pointer;
     opacity: 0.7;
     transition: opacity 0.5s ease;
   }
   
   .swiperContainer .swiper-pagination-bullet-active {
-    width: 20px;
-    height: 6px;
+    width: 15px;
+    height: 5px;
     border-radius: 3px;
     background-color: #333;
     opacity: 1;
@@ -204,12 +204,12 @@ justify-content: flex-start;
     } 
 
     .aboutBody{
-        margin-bottom: 0;
+       
         font-size: 0.65em;
         line-height: 1.5rem;
         letter-spacing: 0.004rem;
         width:100%;
-        margin-bottom: 3em;
+        margin-bottom: 2.5em;
     }
 
 }
