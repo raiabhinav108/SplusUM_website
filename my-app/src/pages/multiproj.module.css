@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.group{
+    margin: 0 auto;
+    margin-top: 70px;
+    display: flex;
+    font-family: "poppins";
+    width: 78%;
+    flex-direction: column;
+}
+.tagStyle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px 100px 100px 100px;
+    font-size: 15px;
+    margin: 0px 0px 5px 0px;
+    background-color: #000000;
+    width: 150px;
+    color: white;
+    height: 30px;
+}
+.mainHead{
+    font-size: 70px;
+    font-weight: 500;
+    text-transform: none;
+    line-height: 1em;
+    letter-spacing: -1px;
+    white-space: normal;
+    margin: 0.5em -1em 0.5em 0em
+}
+.subHead{
+    font-size: 15px;
+    line-height: 1.136em;
+    white-space: normal;
+    width: 95%;
+}
+#contain{
+    width: 85%;
+    margin-left: 60px;
+}
+.void{
+    height: 120px;
+}
+@media only screen and (max-width:767px){
+    #contain{
+        
+        margin-left: 24px;
+    } 
+}
