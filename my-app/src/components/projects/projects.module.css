@@ -5,7 +5,7 @@
     justify-content: space-between;
     
 }
-.intro{
+.intro1{
     color: #000000;
     font-family: "Poppins", Sans-serif;
     font-size: 13px;
@@ -19,15 +19,15 @@
 .headplussub{
     width: 70%;
 }
-.head_pj{
+.pjofhead{
     color: #000000;
     width:50%;
-    font-size: 1.2rem;
-    font-weight: 300;
+    font-size: 2.7rem;
+    font-weight: 500;
     text-transform: none;
-    line-height: 3.2rem;
+    line-height: 2.5rem;
     letter-spacing: 0px;
-    padding: 0.4em 0 0.8em;
+    padding: 0.4em 0 0.5em;
     
     
    
@@ -162,7 +162,7 @@
     .headplussub{
         width: 100%;
     }
-    .head_pj{
+    .pjofhead{
 
         width:100%;
     }
