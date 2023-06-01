@@ -76,6 +76,10 @@ line-height: 1.5em;
     .OurServicesParent{
         padding: 6em 2%;   
     }
+    .Headingpart{
+        width:100%;
+        padding-bottom: 0.8em;
+    }
  
 }
 @media only screen and (max-width:767px) {
@@ -111,6 +115,6 @@ line-height: 1.5em;
     }
     .Headingpart{
         width:100%;
-        font-size: 1.2rem;
+       
     }
     }

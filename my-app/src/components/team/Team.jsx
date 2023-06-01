@@ -6,7 +6,7 @@ const Team = () => {
         <div className="heading_team">
             TEAM MEMBERS
         </div>
-        <hr className="divider"></hr>
+        <div style={{marginBottom:'0'}} className="hr1"></div>
         <div className="team_main_section">
             <div className="main_card">
              <div className="personal_image">

@@ -1,4 +1,4 @@
-import styles from "./about.module.css";
+import styles from "./about.css";
 import { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { useMediaQuery } from "@material-ui/core";
@@ -22,12 +22,12 @@ const About = () => {
     };
     const shouldDisplayPaginationNew = isTablet;
   return (
-    <div className={styles.main_about}>
+    <div className="main_about">
       <p>About</p>
-      <div className={styles.hr}></div>
-      <div className={styles.aboutSection}>
-        <div className={styles.swiperSection}>
-        <div className={styles.swiperContainer}>
+      <div className="hr1"></div>
+      <div className="aboutSection">
+        <div className="swiperSection">
+        <div className="swiperContainer">
           <Swiper
             // install Swiper modules
             modules={[Navigation, Pagination, Scrollbar, A11y]}
@@ -43,7 +43,7 @@ const About = () => {
           >
             <SwiperSlide>
               <div
-                className={styles.aboutHead}
+                className="aboutHead"
                 
               >
                 <h1>
@@ -54,7 +54,7 @@ const About = () => {
                 </h1>
               </div>
               <div
-              className={styles.aboutBody}
+              className="aboutBody"
               >
 
               Since the 1980s, as the complexity of buildings began to increase, the field of architecture became multi-disciplinary with specializations for each project type, technological expertise. Through a unique combination of engineering, construction and design disciplines and expertise
@@ -62,7 +62,7 @@ const About = () => {
             </SwiperSlide>
             <SwiperSlide>
               <div
-                className={styles.aboutHead}
+                className="aboutHead"
                
               >
               <h1>
@@ -73,7 +73,7 @@ const About = () => {
                 </h1>
               </div>
               <div
-                className={styles.aboutBody}
+                className="aboutBody"
                 
               >
                Since the 1980s, as the complexity of buildings began to increase, the field of architecture became multi-disciplinary with specializations for each project type, technological expertise. Through a unique combination of engineering, construction and design disciplines and expertise
@@ -81,7 +81,7 @@ const About = () => {
             </SwiperSlide>
             <SwiperSlide>
               <div
-                className={styles.aboutHead}
+                className="aboutHead"
               
               >
             <h1>
@@ -92,7 +92,7 @@ const About = () => {
                 </h1>
               </div>
               <div
-                className={styles.aboutBody}
+                className="aboutBody"
                 
               >
       Since the 1980s, as the complexity of buildings began to increase, the field of architecture became multi-disciplinary with specializations for each project type, technological expertise. Through a unique combination of engineering, construction and design disciplines and expertise
@@ -102,7 +102,7 @@ const About = () => {
          
           {shouldDisplayPaginationNew && <div style={{display:'flex',justifyContent:'flex-start'}} className="swiper-pagination"></div>}
 </div>
-          <div className={styles.arrows_abt}>
+          <div className='arrows_abt'>
   <img
     className="arrow3"
     src="images/arrow-left-solid.svg"
@@ -121,14 +121,14 @@ const About = () => {
 </div>
         </div>
 
-        <div className={styles.pic}>
+        <div className="pic">
           <motion.img 
           className="about_image"
  src="https://arcstudio.liquid-themes.com/wp-content/uploads/2022/03/caro-img-1.jpg"></motion.img>
         </div>
       </div>
      
-      <div className={styles.hr2}>
+      <div className="hr2">
         <hr></hr>
       </div>
     </div>
