@@ -3,7 +3,8 @@
     padding: 30px 85px ;
     margin-top: 100px;
     background-color: #F8F8F8;
-    
+    position: relative;
+    z-index: 99;
 }
 
 .hed_sec{
@@ -87,4 +88,8 @@
       
       padding: 0px 4% ;
   }
+}
+.myvideo{
+  position: relative;
+  z-index: 0;
 }
