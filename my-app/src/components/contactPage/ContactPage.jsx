@@ -79,7 +79,7 @@ const ContactPage = ({open,setOpen}) => {
 </div>
  
 <div className="desc_text">
-<textarea placeholder='Tell us about your project' rows="7" cols="70"></textarea>
+<textarea  placeholder='Tell us about your project' rows="7" cols="70"></textarea>
 </div>
 
 

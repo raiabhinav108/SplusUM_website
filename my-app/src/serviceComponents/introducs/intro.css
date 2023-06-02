@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+
+
+.intro_kr{
+        
+    padding: 100px 6.5% 100px;
+   font-family: 'Poppins', sans-serif;
+}
+
+.head_kr_intro span{
+    color: #fff;
+    font-family: "Poppins", Sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1.1em;
+    letter-spacing: 1.2px;
+    background-color: #000000;
+    padding: 2px 12px;
+    border-radius: 10px;
+}
+
+.divider_kr_intro {
+margin-top: 25px;
+height:4px;
+  background-color:black;
+}
+
+.todo_kr{
+    display: flex;
+}
+.vr_divider_kr{
+width:1px;
+background-color: grey;
+
+}
+
+.sub1_kr {
+  width:100%;
+ 
+  padding-top:2em;
+}
+.sub1_kr .image_kr{
+    padding-top:8em;
+    width:100%;
+}
+.sub1_kr .image_kr img{
+width:85%;
+height:300px;
+    
+}
+.sub1_kr .head1_kr {
+    padding-right:29%;
+}
+.sub1_kr .head1_kr h1{
+    font-size: 2.2rem;
+    font-weight: 500;
+    line-height: 2.4rem;
+    letter-spacing: -0.06rem;
+  }
+
+  .sub2_kr{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    padding-top:2em;
+  
+}
+.sub2_subdiv_kr{
+    margin-left:1.7em;
+    margin-bottom: 2.5em;
+}
+  .sub2_subdiv_kr .para1_kr{
+   
+    padding-bottom: 1.5em;
+  width:45%;
+  letter-spacing: -0.02em;
+  line-height:1.3rem;
+  }
+  .sub2_subdiv_kr .para1_kr p{
+    
+    font-weight: 500;
+  }
+  .sub2_subdiv_kr .para1_kr  span{
+    padding-bottom: 0;
+    font-weight: 600;
+    font-size: 20px;
+    margin-right: 0.8em;
+  }
+  .sub2_subdiv_kr .para2_kr{
+   
+    
+  width:45%;
+  letter-spacing: -0.02em;
+  line-height:1.3rem;
+  }
+  .sub2_subdiv_kr .para2_kr p{
+   
+    font-weight: 500;
+  }
+
+  .divider2_kr{
+     height: 0.5px;
+     background-color: grey;
+  }
+
+  .sub2_kr .context2_kr{
+    margin-left:1.7em;
+    margin-top:8em;
+    width:71.6%;
+    padding-bottom: 1em;
+    
+   }
+   .sub2_kr .context2_kr h1{
+    
+     font-size: 2.2rem;
+     font-weight: 500;
+     line-height: 2.4rem;
+     letter-spacing: -0.06rem;
+     
+   }
+
+   @media only screen and (max-width:767px) {
+    .intro_kr{
+      padding-left:4%;
+      padding-right: 4%; 
+  }
+    .todo_kr{
+      display: flex;
+      flex-direction: column;
+    }
+    .sub1_kr .head1_kr {
+      padding-right:0%;
+  }
+  .sub1_kr .head1_kr h1{
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 2rem;
+    letter-spacing: -0.06rem;
+  }
+  .sub1_kr .image_kr img{
+    width:100%;
+    height:300px;
+        
+    }
+    .sub2_kr{
+      display: flex;
+      flex-direction: column;
+      width:100%;
+      padding-top:4em;
+    
+  }
+  .sub1_kr .image_kr{
+    padding-top:2.5em;
+   
+}
+.sub2_subdiv_kr{
+  margin-left:0em;
+  margin-bottom: 2.5em;
+}
+.sub2_subdiv_kr .para1_kr{
+   
+  padding-bottom: 1.5em;
+width:83%;
+letter-spacing: -0.02em;
+line-height:1.3rem;
+}
+.sub2_subdiv_kr .para2_kr{
+   
+    
+  width:83%;
+  letter-spacing: -0.02em;
+  line-height:1.3rem;
+  }
+  .sub2_kr .context2_kr{
+    margin-left:0em;
+    margin-top:4em;
+    width:100%;
+    padding-bottom: 1em;
+    
+   }
+   .sub2_kr .context2_kr h1{
+    
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 2rem;
+    letter-spacing: -0.06rem;
+    
+  }
+   }
+  
+ 
+  
+             
