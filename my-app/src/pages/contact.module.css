@@ -1,0 +1,123 @@
+.contactparent_mr{
+    margin: 0 auto;
+    margin-top: 70px;
+    display: flex;
+    font-family: "poppins";
+    width: 80%;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+.tagStyle_mr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px 100px 100px 100px;
+    font-size: 15px;
+    margin: 0px 0px 20px 0px;
+    background-color: #000000;
+    width: 150px;
+    color: white;
+    height: 30px;
+}
+.mainHead_mr{
+    font-size: 60px;
+    font-weight: 500;
+    text-transform: none;
+    line-height: 1.1em;
+    letter-spacing: 0px;
+    white-space: normal;
+    margin: 0em 0em 0.5em 0em;
+}
+.headcollection{
+    display: flex;
+    gap: 5em;
+    
+    font-size: 14px;
+    line-height: 1.33em;
+    white-space: normal;
+    margin: 0em 0em 2em 0em;
+
+}
+.subHead1{
+    width: 30%;
+}
+.subHead2{
+    width: 30%;
+}
+.contactgrp_mr{
+    display: flex;
+    width: 82%;
+    margin: 0 auto;
+    justify-content: space-around;
+    margin-top: 50px;
+    
+    
+}
+.group1{
+    position: relative;
+    padding: 50px;
+    flex: 1 1 30%;
+    min-width: 200px;
+    margin: 15px;
+    border: 1px solid #c8d1d7;
+    align-self: stretch;
+}
+.group2{
+    position: relative;
+    padding: 50px;
+    flex: 1 1 30%;
+    min-width: 200px;
+    margin: 15px;
+    border: 1px solid #c8d1d7;
+    align-self: stretch;
+}
+.group3{
+    position: relative;
+    padding: 50px;
+    flex: 1 1 30%;
+    min-width: 200px;
+    margin: 15px;
+    border: 1px solid #c8d1d7;
+    align-self: stretch;
+    margin-bottom: 30px;
+}
+.mapandgroup{
+    display: flex;
+    width: 82%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    
+}
+.map{
+    position: relative;
+    padding: 50px;
+    flex: 1 1 30%;
+    min-width: 250px;
+    margin: 15px;
+    border: 1px solid #c8d1d7;
+    align-self: stretch;
+    height: 530px;
+    
+}
+.item4_mr{
+    position: relative;
+    padding: 40px;
+    flex: 1 1 30%;
+    min-width: 250px;
+    margin: 15px;
+    border: 1px solid #c8d1d7;
+    align-self: stretch;
+   
+    
+}
+.icons_mr{
+    padding-bottom: 20px;
+}
+.heading_mr{
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 10px;
+}
+.subhead_mr{
+    font-size: 14px;
+}

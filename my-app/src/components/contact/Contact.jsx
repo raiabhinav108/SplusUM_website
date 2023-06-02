@@ -12,7 +12,11 @@ const Contact = () => {
 
   return (
     <div className="contact_sec">
-    
+    {/*<video autoplay muted loop id="myVideo" className="myvideo">
+      <source src="images/" type="video/mp4"/>
+         Your browser does not support HTML5 video.
+      </video>*/
+}
      <div className="hed_sec">
         <div className="hed1">
 <span> Have a project in mind?</span>
