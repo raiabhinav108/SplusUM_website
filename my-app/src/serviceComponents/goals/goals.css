@@ -1,0 +1,130 @@
+.main_subset1_gl{
+    display:flex;
+    width:100%;
+    margin-bottom: 10em;
+}
+.main_subset2_gl{
+    display:flex;
+    width:100%;
+    margin-bottom: 13em;
+}
+.main_subset3_gl{
+    display:flex;
+    width:100%;
+    margin-bottom: 10em;
+}
+.main_subset4_gl{
+    display:flex;
+    width:100%;
+    margin-bottom: 5em;
+}
+.main_subset3_gl .sub1_gl{
+   margin-top:4em;
+ }
+ .main_subset3_gl .sub1_gl .desc_gl{
+    margin-right: 19%;
+    
+
+}
+
+.sub1_gl{
+   margin-left: 8.5%;
+    width:42%;
+}
+.sub2_gl{
+    width:58%;
+}
+
+
+
+.Accordion_gl{
+    margin-top: 2em;
+    width: 100%;   
+}
+
+.Accordion_gl h4{
+    font-weight: 600;
+font-size: 18px;
+line-height: 2em;
+    
+}
+.sub2_gl img{
+  width:100%;
+  height:auto;
+}
+.sub1_gl .hd_gl{
+    margin-top:1em;
+    margin-bottom: 1em;
+}
+.sub1_gl .hd_gl span{
+    color: #000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 11px;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1.1em;
+    letter-spacing: 1.2px;
+    background-color: #EEEEEE;
+    padding: 2px 12px;
+    border-radius: 10px;
+}
+.sub1_gl .desc_gl{
+    margin-right: 8%;
+    margin-bottom: 2em;
+
+}
+.main_subset2_gl .sub1_gl{
+    margin-top: 2.5em;
+    margin-left: 6.5%;
+    width:42%;
+
+}
+.main_subset4_gl .sub1_gl{
+    margin-top: 2.5em;
+    margin-left: 6.5%;
+    width:42%;
+
+}
+  
+   
+    .main_subset2_gl .sub1_gl .desc_gl h2{
+        margin-right: 15%;
+}
+.main_subset4_gl .sub1_gl .desc_gl h2{
+    margin-right: 15%;
+}
+.sub1_gl .desc_gl h2{
+font-size: 50px;
+text-transform: none;
+font-weight: 500;
+line-height: 1.1em;
+white-space: normal;
+}
+
+.sub1_gl .para_gl_sub1 p{
+    font-size: 16px;
+    line-height: 1.65em;
+    white-space: normal;
+    margin-right:13%;
+    letter-spacing: 0.005rem;
+
+
+}
+.main_subset2_gl .sub1_gl .para_gl_sub1 p{
+    font-size: 16px;
+    line-height: 1.65em;
+    white-space: normal;
+    margin-right:18%;
+    letter-spacing: 0.008rem;
+
+
+}
+.main_subset4_gl .sub1_gl .para_gl_sub1 p{
+    font-size: 16px;
+    line-height: 1.65em;
+    white-space: normal;
+    margin-right:18%;
+    letter-spacing: 0.008rem;
+
+
+}

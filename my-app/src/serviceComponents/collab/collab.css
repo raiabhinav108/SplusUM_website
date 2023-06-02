@@ -1,0 +1,87 @@
+.main_clb{
+    display: flex;
+    margin: 5em 1% 9em 6.5%;
+}
+.sec_clb1{
+ width: 18%;
+ margin-top: 1em;
+}
+.sec_sub1_clb span{
+font-size: 11px;
+    font-style: italic;
+    letter-spacing: 0.1px;
+    white-space: normal;
+}
+
+.sec_sub2_clb h6{
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    white-space: normal;
+}
+
+.sec_clb2{
+     width: 22%;
+    
+}
+.sec_clb2 .divider_clb{
+    width:70%;
+    height: 2px;
+background-color:black;
+margin-top: 2.5em;
+}
+
+.sec_clb3{
+     width: 18%;
+     line-height: 17px;
+}
+.sec_sub1_clb3{
+    width:50%;
+    margin: 0em 0em 1em 0em;
+}
+.sec_sub1_clb3 span{
+    font-size: 14px;
+    
+    white-space: normal;
+   
+}
+.sec_sub2_clb3 span{
+        font-size: 14px;
+    line-height: 17px;
+    white-space: normal;
+}
+
+.sec_clb4{
+     width: 22%;
+}
+
+.sec_clb4 .divider_clb{
+    width:70%;
+    height: 2px;
+background-color:black;
+margin-top: 2.5em;
+}
+
+.sec_clb5{
+     width: 20%;
+}
+.sec_clb5{
+    width: 20%;
+    line-height: 17px;
+}
+.sec_sub1_clb5{
+   width:70%;
+   margin: 0em 0em 1em 0em;
+}
+.sec_sub1_clb5 span{
+   font-size: 14px;
+   
+   white-space: normal;
+  
+}
+.sec_sub2_clb5 span{
+    font-size: 14px;
+line-height: 17px;
+white-space: normal;
+}
