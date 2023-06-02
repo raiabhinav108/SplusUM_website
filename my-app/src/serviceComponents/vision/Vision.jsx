@@ -2,29 +2,44 @@ import React,{useEffect} from 'react'
 import './vision.css'
 const Vision = () => {
     
-    useEffect(() => {
-        const handleScroll = () => {
-          const image = document.querySelector('.image_vision_kr img');
-          const windowWidth = window.innerWidth;
-          const windowHeight = window.innerHeight;
-          const imageTop = image.getBoundingClientRect().top;
-    
-          if (windowWidth > 768 &&imageTop < windowHeight) {
-            // Calculate the opacity based on the position of the image
-            const opacity = 1 - Math.abs(imageTop) / windowHeight;
-            image.style.opacity = opacity;
-          } else {
-            image.style.opacity = 1;
-          }
-        };
-    
-        // Attach the scroll event listener
-        window.addEventListener('scroll', handleScroll);
-        return () => {
-          // Remove the scroll event listener when the component is unmounted
-          window.removeEventListener('scroll', handleScroll);
-        };
-      }, []);
+  useEffect(() => {
+    let prevScrollPos = window.pageYOffset;
+    let isScrollingDown = false;
+  
+    const handleScroll = () => {
+      const image = document.querySelector('.image_vision_kr img');
+      const windowWidth = window.innerWidth;
+      const windowHeight = window.innerHeight;
+      const imageTop = image.getBoundingClientRect().top;
+      const currentScrollPos = window.pageYOffset;
+  
+      if (windowWidth > 768 && currentScrollPos > prevScrollPos) {
+        // Scrolling down
+        if (imageTop < windowHeight) {
+          // Calculate the opacity based on the position of the image
+          const opacity = 1 - Math.abs(imageTop) / windowHeight;
+          image.style.opacity = opacity;
+        }
+        isScrollingDown = true;
+      } else {
+        // Scrolling up or reached top
+        image.style.opacity = 1;
+        isScrollingDown = false;
+      }
+  
+      prevScrollPos = currentScrollPos;
+    };
+  
+    // Attach the scroll event listener
+    window.addEventListener('scroll', handleScroll);
+  
+    return () => {
+      // Remove the scroll event listener when the component is unmounted
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+  
+
     
  
     
