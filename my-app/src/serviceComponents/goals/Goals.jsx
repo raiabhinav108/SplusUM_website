@@ -40,7 +40,9 @@ const Goals = () => {
     <div className="Accordion_gl">
         <Accordion  expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
         <AccordionSummary 
-        style={{padding:0,width:'490px'}}
+        style={{padding:0,  '@media only and screen (max-width: 767px)': {
+        width: '100%',},
+        width: '87%'} }
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel1a-content"
           id="panel1a-header"
@@ -63,7 +65,9 @@ const Goals = () => {
       </Accordion>
       <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
         <AccordionSummary
-        style={{padding:0,width:'490px'}}
+             style={{padding:0,  '@media only and screen (max-width: 767px)': {
+        width: '100%',},
+        width: '87%',} }
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2a-content"
           id="panel2a-header"
@@ -83,7 +87,9 @@ const Goals = () => {
       </Accordion>
       <Accordion expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
         <AccordionSummary
-        style={{padding:0,width:'490px'}}
+     style={{padding:0, 
+        width: '87%' ,'@media only and screen (max-width: 767px)': {
+        width: '100%',} }}
           expandIcon={<ExpandMoreIcon />}
           aria-controls="panel2a-content"
           id="panel2a-header"

@@ -63,6 +63,7 @@ const Vision = () => {
     <div className="stars">★<span>★</span><span>★</span><span>★</span><span>★</span></div>
 
 </div>
+<div className="box_kr">
 <div className="sub_service2">
 <div className="hd2"><h6>Case Studies</h6></div>
     <div className="pp"><span>Projects</span></div>
@@ -75,6 +76,7 @@ const Vision = () => {
 <div className="sub_service3">
 <div className="hd3"><h6>Case Studies</h6></div>
     <div className="descrip"><p>As a leading innovator in Paris, we look to engage with our clients beyond the conventional design and development agency relationship, becoming a partner to the people and companies we work with. We create brand identities, digital experiences, and print materials.</p></div>
+</div>
 </div>
       </div>
       </div>

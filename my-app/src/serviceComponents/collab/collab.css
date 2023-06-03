@@ -1,6 +1,6 @@
 .main_clb{
     display: flex;
-    margin: 5em 1% 9em 6.5%;
+    padding: 5em 1% 9em 6.5%;
 }
 .sec_clb1{
  width: 18%;
@@ -63,9 +63,7 @@ background-color:black;
 margin-top: 2.5em;
 }
 
-.sec_clb5{
-     width: 20%;
-}
+
 .sec_clb5{
     width: 20%;
     line-height: 17px;
@@ -84,4 +82,94 @@ margin-top: 2.5em;
     font-size: 14px;
 line-height: 17px;
 white-space: normal;
+}
+
+@media only screen and (max-width:1024px){
+    .main_clb{
+       padding-left: 2%;
+       padding-right: 2%;
+      
+      
+    }
+    .sec_clb2{
+        width: 18%;
+   padding-left: 1%;
+       
+   }
+   .sec_clb3{
+    width: 28%;
+    line-height: 17px;
+    padding-left:5%;
+}
+.sec_clb4{
+    width: 16%;
+   
+}
+
+.sec_clb5{
+    width: 18%;
+    line-height: 17px;
+}
+}
+
+
+@media only screen and (max-width:767px){
+    .main_clb{
+        display: flex;
+        flex-direction: column;
+        padding: 1.2em 6.5% 9em 6.5%;
+        justify-content: center;
+        align-items: center;
+      
+    }
+    .sec_clb1{
+        width: 100%;
+
+      
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+       }
+       .sec_clb3{
+        width: 40%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+   }
+   .sec_clb5{
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+   .sec_sub1_clb3{
+    width:100%;
+    margin: 0em 0em 1em 0em;
+}
+.sec_sub1_clb5{
+    width:100%;
+    margin: 0em 0em 1em 0em;
+ }
+.sec_clb2 .divider_clb{
+    width:100%;
+    height: 2px;
+background-color:black;
+margin-top: 1.2em;
+margin-bottom: 1em;
+}
+.sec_clb2{
+    width: 55%;
+   
+}
+.sec_clb4 .divider_clb{
+    width:100%;
+    height: 1.5px;
+background-color:black;
+margin-top: 1.2em;
+margin-bottom: 1em;
+}
+.sec_clb4{
+    width: 50%;
+   
+}
 }
