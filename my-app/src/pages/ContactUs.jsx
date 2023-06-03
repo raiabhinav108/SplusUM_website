@@ -1,7 +1,43 @@
+import { useState } from "react";
 import Footer from "../components/footer/Footer";
 import Navbar from "../components/navbar/Navbar";
 import styles from "./contact.module.css";
 const ContactUs = () => {
+  const [change, nochange] = useState("https://s3-us-west-2.amazonaws.com/handel-architects/images/general_170911_183005.svg")
+  function changebackground (){
+    document.getElementById("grp1").style.backgroundColor="#30A2FF";
+    nochange("https://s3-us-west-2.amazonaws.com/handel-architects/images/general-white_170911_183002.svg")
+  }
+  function changebackgroundtowhite(){
+    document.getElementById("grp1").style.backgroundColor="white";
+    nochange("https://s3-us-west-2.amazonaws.com/handel-architects/images/general_170911_183005.svg")
+  }
+  const [change2, nochange2] = useState("https://s3-us-west-2.amazonaws.com/handel-architects/images/stationary_170911_183022.svg")
+  function changebackground2 (){
+    document.getElementById("grp2").style.backgroundColor="#30A2FF";
+    nochange2("https://s3-us-west-2.amazonaws.com/handel-architects/images/stationary-white_170911_183020.svg")
+  }
+  function changebackgroundtowhite2(){
+    document.getElementById("grp2").style.backgroundColor="white";
+    nochange2("https://s3-us-west-2.amazonaws.com/handel-architects/images/stationary_170911_183022.svg")
+  }
+  const [change3, nochange3] = useState("https://s3-us-west-2.amazonaws.com/handel-architects/images/case_170911_183017.svg")
+  function changebackground3 (){
+    document.getElementById("grp3").style.backgroundColor="#30A2FF";
+    nochange3("https://s3-us-west-2.amazonaws.com/handel-architects/images/case-white_170911_183014.svg")
+  }
+  function changebackgroundtowhite3(){
+    document.getElementById("grp3").style.backgroundColor="white";
+    nochange3("https://s3-us-west-2.amazonaws.com/handel-architects/images/case_170911_183017.svg")
+  }
+  function changebackground4 (){
+    document.getElementById("grp4").style.backgroundColor="#80ED99";
+    
+  }
+  function changebackgroundtowhite4(){
+    document.getElementById("grp4").style.backgroundColor="white";
+    
+  }
   return (
     <div>
       <Navbar/>
@@ -40,15 +76,15 @@ const ContactUs = () => {
       </div>
       
     </div>
-    <img width="100%" src="https://arcstudio.liquid-themes.com/wp-content/uploads/2022/04/bridge.jpeg"></img>
+    <img width="100%" className={styles.contactimg_mr} src="https://arcstudio.liquid-themes.com/wp-content/uploads/2022/04/bridge.jpeg"></img>
     <div className={styles.contactgrp_mr}>
-      <div className={styles.group1}>
-        <img className={styles.icons_mr} src="https://s3-us-west-2.amazonaws.com/handel-architects/images/general_170911_183005.svg"></img>
+      <div className={styles.group1} id="grp1" onMouseOver={changebackground} onMouseLeave={changebackgroundtowhite}>
+        <img className={styles.icons_mr} src={change}></img>
         <div className={styles.heading_mr}>General Inquiries</div>
         <div className={styles.subhead_mr}>Don't know which office to contact? Click to submit your request to our mailbox.</div>
       </div>
-      <div className={styles.group2}>
-        <img className={styles.icons_mr} src="https://s3-us-west-2.amazonaws.com/handel-architects/images/stationary_170911_183022.svg"></img>
+      <div className={styles.group2} id="grp2" onMouseOver={changebackground2} onMouseLeave={changebackgroundtowhite2}>
+        <img className={styles.icons_mr} src={change2}></img>
         <div className={styles.heading_mr}>New Business And Press</div>
         <div className={styles.subhead_mr}>Don't know which office to contact? Click to submit your request to our mailbox.</div>
       </div>
@@ -56,12 +92,12 @@ const ContactUs = () => {
     <div className={styles.mapandgroup}>
       <div className={styles.blockgroup_mr}>
         <div className={styles.item1_mr}>
-        <div className={styles.group3}>
-        <img  className={styles.icons_mr}src="https://s3-us-west-2.amazonaws.com/handel-architects/images/stationary_170911_183022.svg"></img>
-        <div className={styles.heading_mr}>New Business And Press</div>
-        <div className={styles.subhead_mr}>Don't know which office to contact? Click to submit your request to our mailbox.</div>
+        <div className={styles.group3} id="grp3" onMouseOver={changebackground3} onMouseLeave={changebackgroundtowhite3}>
+        <img  className={styles.icons_mr}src={change3}></img>
+        <div className={styles.heading_mr}>Career</div>
+        <div className={styles.subhead_mr}>See our current job opening.</div>
       </div></div>
-        <div className={styles.item4_mr}><div class="mango">
+        <div className={styles.item4_mr} id="grp4" onMouseOver={changebackground4} onMouseLeave={changebackgroundtowhite4}><div class="mango">
             <img className={styles.icons_mr} src="images/whatsapp.png" width="12%" height="12%" style={{marginRight: "1em"}}/>
             <div>
               <div class="Request" className={styles.heading_mr}><h4>Request A Call</h4></div>
@@ -73,8 +109,8 @@ const ContactUs = () => {
             </div>
           </div></div>
       </div>
-      <div className={styles.mapsectiom_mr}>
-      <div className={styles.map} id="map">
+      <div className={styles.mapsectiom_mr} >
+      <div className={styles.map} id="map" >
               
               <div class="holder map-holder" className={styles.heading_mr}>
                 <h3>Open in Maps</h3>
