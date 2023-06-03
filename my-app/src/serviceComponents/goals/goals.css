@@ -107,9 +107,8 @@ white-space: normal;
     white-space: normal;
     margin-right:13%;
     letter-spacing: 0.005rem;
-
-
 }
+
 .main_subset2_gl .sub1_gl .para_gl_sub1 p{
     font-size: 16px;
     line-height: 1.65em;
@@ -125,6 +124,202 @@ white-space: normal;
     white-space: normal;
     margin-right:18%;
     letter-spacing: 0.008rem;
+}
+@media only screen and (max-width:1024px){
+    .main_gl{
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    .sub1_gl{
+        margin-left: 0%;
+         width:52%;
+     }
 
+ .sub2_gl{
+     width:48%;
+     padding-top: 10em;
+ }
+     .sub2_gl img{
+        width:100%;
+        height:auto;
+      }
+      .main_subset1_gl{
 
+        margin-bottom: 2em;
+    }
+    .main_subset3_gl{
+        margin-bottom: 5em;
+    }
+    .main_subset3_gl .sub1_gl .desc_gl{
+        margin-right: 0%;
+    }
+    .main_subset3_gl .sub1_gl .para_gl_sub1 p{
+        font-size: 16px;
+        line-height: 1.65em;
+        white-space: normal;
+        margin-right:10%;
+        letter-spacing: 0.008rem;
+    }
+    .main_subset2_gl{
+
+        margin-bottom: 2em;
+    }
+    .main_subset2_gl .sub2_gl{
+        width:48%;
+        padding-top: 10em;
+    }
+    .main_subset4_gl .sub2_gl{
+        width:48%;
+        padding-top: 10em;
+    }
+
+    .sub1_gl .desc_gl h2{
+        font-size: 47px;
+        text-transform: none;
+        font-weight: 500;
+        line-height: 1.1em;
+        white-space: normal;
+        }
+        .main_subset2_gl .sub1_gl{
+            margin-top: 2.5em;
+            margin-left: 2%;
+            width:52%;
+        
+        }
+        .main_subset4_gl .sub1_gl{
+            margin-top: 2.5em;
+            margin-left: 2%;
+            width:52%;
+        }
+            .main_subset2_gl .sub1_gl .desc_gl h2{
+                margin-right: 0%;
+                font-size: 47px;
+        }
+        .main_subset4_gl .sub1_gl .desc_gl h2{
+            margin-right: 0%;
+            font-size: 47px;
+        }
+        .main_subset2_gl .sub1_gl .para_gl_sub1 p{
+   
+            margin-right:0%;
+            
+        
+        
+        }
+        .main_subset4_gl .sub1_gl .para_gl_sub1 p{
+            font-size: 16px;
+            line-height: 1.65em;
+            white-space: normal;
+            margin-right:0%;
+            letter-spacing: 0.008rem;
+        }
+}
+
+@media only screen and (max-width:767px){
+    .main_subset1_gl{
+        display:flex;
+        flex-direction:column-reverse;
+        width:100%;
+        margin-bottom: 6em;
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+    .sub2_gl{
+        width:100%;
+        padding-top: 0em;
+    }
+    .sub1_gl{
+        margin-left: 0%;
+         width:100%;
+     }
+     .sub1_gl .desc_gl{
+        margin-right:0%;
+        margin-bottom: 2em;
+    
+    }
+  
+    .sub1_gl .para_gl_sub1 p{
+ font-size: 15px;
+        margin-right:0%;
+       
+    }
+    .main_subset2_gl .sub1_gl .para_gl_sub1 p{
+        font-size: 15px;
+        margin-right:0%;
+       
+    
+    
+    }
+    .main_subset4_gl .sub1_gl .para_gl_sub1 p{
+        font-size: 15px;
+        margin-right:0%;
+       
+    }
+    .sub1_gl .desc_gl h2{
+        font-size: 43px;
+        text-transform: none;
+        font-weight: 500;
+        line-height: 1.1em;
+        white-space: normal;
+        }
+        .main_subset2_gl{
+            
+            display:flex;
+            flex-direction: column;
+            width:100%;
+            margin-bottom: 6em;
+            padding-left: 4%;
+            padding-right: 4%;
+        }
+        .main_subset3_gl{
+            display:flex;
+            flex-direction: column-reverse;
+            width:100%;
+            margin-bottom: 6em;
+            padding-left: 4%;
+            padding-right: 4%;
+        }
+        .main_subset4_gl{
+            display:flex;
+            flex-direction: column;
+            width:100%;
+            margin-bottom: 6em;
+            padding-left: 4%;
+            padding-right: 4%;
+        }
+        .main_subset3_gl .sub1_gl{
+            margin-top:0em;
+          }
+          .main_subset2_gl .sub1_gl{
+            margin-top: 0em;
+            margin-left: 0%;
+            width:100%;
+        
+        }
+        .main_subset4_gl .sub1_gl{
+            margin-top: 0em;
+            margin-left: 0%;
+            width:100%;
+        
+        }
+        .main_subset4_gl .sub1_gl .desc_gl h2{
+            margin-right: 0%;
+        }
+        .main_subset2_gl .sub1_gl .desc_gl h2{
+            margin-right: 0%;
+        }
+        .main_subset3_gl .sub1_gl .desc_gl{
+            margin-right: 0%;
+            
+        
+        }
+        .main_subset2_gl .sub2_gl {
+            width:100%;
+            padding-top: 0em;
+    }
+    .main_subset4_gl .sub2_gl {
+        width:100%;
+        padding-top: 0em;
+    }
+  
 }
