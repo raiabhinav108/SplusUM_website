@@ -31,7 +31,6 @@
 .headcollection{
     display: flex;
     gap: 5em;
-    
     font-size: 14px;
     line-height: 1.33em;
     white-space: normal;
@@ -120,4 +119,35 @@
 }
 .subhead_mr{
     font-size: 14px;
+}
+@media only screen and (max-width:767px){
+    .headcollection{
+        flex-direction: column;
+    }
+    .subHead1{
+        width: 100%;
+    }
+    .subHead2{
+        width: 100%;
+    }
+    .contactparent_mr{
+        width: 90%;
+    }
+    .contactgrp_mr{
+        flex-direction: column;
+        width: 100%;
+    }
+    .mapandgroup{
+        flex-direction: column;
+        width: 100%;
+    }
+    .contactimg_mr{
+        height: 400px;
+    }
+    .heading_mr{
+        margin-left: 20px;
+    }
+    .heading_mr{
+        margin: 0;
+    }
 }

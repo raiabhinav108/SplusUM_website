@@ -119,4 +119,13 @@
     .SliderParent{
         padding: 0 ;   
     }
+    .introhead{
+        width: 90%;
+    }
+   .introbody{
+    width: 90%;
+   }
+   .swipper{
+    width: 90%;
+   }
 }
