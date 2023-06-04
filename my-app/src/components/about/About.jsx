@@ -19,6 +19,7 @@ const About = () => {
   const handleSlideChange = (swiper) => {
       const activeIndex = swiper.activeIndex + 1; // Swiper indexes start from 0
       setNumber(activeIndex);
+     
     };
     const shouldDisplayPaginationNew = isTablet;
   return (
@@ -35,8 +36,10 @@ const About = () => {
             slidesPerView={1}
             speed={1000}
             onSlideChange={handleSlideChange} 
+            
         onSwiper={(swiper) => console.log(swiper)}
         pagination={shouldDisplayPaginationNew ? { clickable: true } : false}
+        
         navigation={ { prevEl: ".arrow3",
               nextEl: ".arrow4",
             }}
