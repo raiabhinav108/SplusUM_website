@@ -1,7 +1,7 @@
 
 import Navbar from "../components/navbar/Navbar";
 import "../app.css";
-
+import "./home.css"
 import Slider from "../components/slider/Slider";
 import Projects from "../components/projects/Projects";
 import About from "../components/about/About";
@@ -17,8 +17,10 @@ import Testimonials from "../components/testimonials/Testimonials";
 
 import AboutSub from "../components/aboutSub/AboutSub";
 import KeyWorks from "../components/keyWorks/KeyWorks";
+import Hello from "../components/hello/Hello";
 
 const Home = () => {
+  
   return (
     <div>
       <Navbar />
@@ -26,7 +28,7 @@ const Home = () => {
       <Slider />
 
       <Projects />
-      <Contact />
+      <Hello/>
       <About />
 
       <ImageSlider />
@@ -37,6 +39,7 @@ const Home = () => {
       <Testimonials />
       <News />
       <Footer />
+      
     </div>
   );
 };
