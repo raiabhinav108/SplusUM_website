@@ -7,6 +7,7 @@ import ContactUs from "./pages/ContactUs";
 
 
 import Services from "./pages/Services";
+import Studio from "./pages/Studio";
 
 
 
@@ -22,6 +23,7 @@ function App() {
      <Route exact path="/contact" element={<ContactUs/>}></Route>
 
      <Route exact path="/services" element={<Services/>}></Route>
+     <Route exact path="/studio" element={<Studio/>}></Route>
 
     </Routes>
       
