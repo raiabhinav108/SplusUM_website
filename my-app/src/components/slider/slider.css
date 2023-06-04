@@ -38,13 +38,13 @@
     background-image: url(https://arcstudio.liquid-themes.com/wp-content/uploads/2022/03/asset-23.jpeg);
     background-position: center center;
     background-size: cover; 
-    height:650px;
+    height:750px;
 }
 .main_imgsld2{
     background-image: url(https://arcstudio.liquid-themes.com/wp-content/uploads/2022/04/slider2-2.jpeg);
     background-position: center center;
     background-size: cover; 
-    height:650px;
+    height:750px;
 }
 
 .description_hd{
@@ -58,7 +58,7 @@
     text-transform: none;
     line-height: 7rem;
    
-    padding-top: 18%;
+    padding-top: 22%;
     padding-left: 8%;
     
 }
