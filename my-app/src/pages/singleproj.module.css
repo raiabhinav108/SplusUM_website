@@ -128,4 +128,27 @@
    .swipper{
     width: 90%;
    }
+   .tob{
+    margin-left: 25px;
+    
+   }
+   .line{
+    width: 90%;
+   }
+   .infoabout{
+    font-size: 17px;
+    line-height: 1.65;
+    font-family: Apercu,Helvetica,sans-serif;
+    font-weight: 300;
+    margin-bottom: 20px;
+    color: rgba(255,255,255,.85);
 }
+.infohead{
+    font-size: 13px;
+}
+.information{
+    gap: 2em;
+    width: 98%;
+}
+}
+
