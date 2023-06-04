@@ -19,7 +19,7 @@ const Hello = () => {
           autoPlay
           muted
           loop
-          style={{ position: 'absolute', width: '100%', height: '100%' ,opacity:"0.7"}}
+          style={{ position: 'absolute', width: '100%', height: '100%' ,opacity:"1"}}
         />
       </div>
       <div className={styles.parent_mr}>
