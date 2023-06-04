@@ -16,6 +16,7 @@ import Contact from "../components/contact/Contact";
 import Testimonials from "../components/testimonials/Testimonials";
 
 import AboutSub from "../components/aboutSub/AboutSub";
+import KeyWorks from "../components/keyWorks/KeyWorks";
 
 const Home = () => {
   return (
@@ -31,7 +32,7 @@ const Home = () => {
       <ImageSlider />
       <AboutSub />
       <OurServices />
-
+      <KeyWorks/>
       <Team />
       <Testimonials />
       <News />
