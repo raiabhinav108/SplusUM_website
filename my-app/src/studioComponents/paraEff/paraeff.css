@@ -151,6 +151,7 @@ transition: all 250ms 0s ease-in-out;
         justify-content: space-around;
       }
       .team_sec_pe .container .box {
+        cursor: pointer;
         position: relative;
         width: 32%;
         height: 535px;
