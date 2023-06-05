@@ -47,8 +47,7 @@ const ParaEff = () => {
         <div class="container">
   <div class="box">
     <div class="imgBx">
-      <img src="https://arcstudio.liquid-themes.com/wp-content/uploads/2022/05/team-1@2x1.jpg
-"/>
+      <img src="https://arcstudio.liquid-themes.com/wp-content/uploads/2022/05/team-1@2x1.jpg" loading="lazy"/>
     </div>
     <div class="content">
       <h2>Alex Martinez</h2>
@@ -59,7 +58,7 @@ const ParaEff = () => {
   </div>
   <div class="box">
     <div class="imgBx">
-      <img src="https://arcstudio.liquid-themes.com/wp-content/uploads/2022/05/img-2@2x-11.jpg"/>
+      <img src="https://arcstudio.liquid-themes.com/wp-content/uploads/2022/05/img-2@2x-11.jpg" loading="lazy"/>
     </div>
     <div class="content">
       <h2>Alex Martinez</h2>
@@ -70,7 +69,7 @@ const ParaEff = () => {
   </div>
   <div class="box">
     <div class="imgBx">
-      <img src="https://arcstudio.liquid-themes.com/wp-content/uploads/2022/05/team-2@2x1.jpg"/>
+      <img src="https://arcstudio.liquid-themes.com/wp-content/uploads/2022/05/team-2@2x1.jpg" loading="lazy"/>
     </div>
     <div class="content">
       <h2>Alex Martinez</h2>
@@ -82,6 +81,24 @@ const ParaEff = () => {
 
 </div>
     </div>
+
+
+    <div className="end">
+        <div className="end1">
+            <div className="hd"><h1>10+</h1></div>
+            <div className="para"><span>Years of experience. Urban design draws together the many strands of place-making,</span></div>
+        </div>
+        <div className="end1">
+            <div className="hd"><h1>90%</h1></div>
+            <div className="para"><span>Average. Urban design draws together the many strands of place-making, environmental</span></div>
+        </div>
+        <div className="end1">
+            <div className="hd"><h1>100m</h1></div>
+            <div className="para"><span>Investment. Urban design draws together the many strands of place-making, environmental</span></div>
+        </div>
+    </div>
+
+
     </div>
   )
 }
