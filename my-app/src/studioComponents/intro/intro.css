@@ -3,7 +3,7 @@
 
 .intro_main{
         
-    padding: 100px 0 100px;
+    padding: 100px 0 70px;
    font-family: 'Poppins', sans-serif;
 }
 
@@ -259,6 +259,17 @@ letter-spacing:0rem ;
         .intro_main .box_kr{
             display: flex;
             flex-direction: column;
+        }
+        .intro_main .head_kr_intro2 {
+          
+        
+            font-size: 56px;
+            font-weight: 500;
+            text-transform: none;
+            line-height: 1em;
+            letter-spacing: -0.8px;
+            white-space: normal;
+            margin-bottom: 0.8em;
         }
         
     }

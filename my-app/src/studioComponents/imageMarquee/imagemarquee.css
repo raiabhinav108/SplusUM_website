@@ -24,3 +24,9 @@
     to { transform: translateX(-50%); }
   }
   
+  @media only screen and (max-width:767px){
+    .marq1 img{
+        width: 17%;
+        
+    }
+  }
