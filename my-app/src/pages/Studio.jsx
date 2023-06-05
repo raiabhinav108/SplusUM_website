@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../components/footer/Footer'
 import Navbar from '../components/navbar/Navbar'
 import ImageMarquee from '../studioComponents/imageMarquee/ImageMarquee'
 import Intro from '../studioComponents/intro/Intro'
@@ -13,6 +14,7 @@ const Studio = () => {
       <ImageMarquee/>
       <ParallaxEffect/>
       <ParaEff/>
+      <Footer/>
     </div>
   )
 }

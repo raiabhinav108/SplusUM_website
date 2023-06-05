@@ -38,7 +38,50 @@ const ParaEff = () => {
         </div>
        </div>
 </div>
-<div className="team_sec_pe">h</div>
+<div className="team_sec_pe">
+
+        <div className="heading_team">
+            OUR TEAM
+        </div>
+        <div className="divider_kr_intro">  </div>
+        <div class="container">
+  <div class="box">
+    <div class="imgBx">
+      <img src="https://arcstudio.liquid-themes.com/wp-content/uploads/2022/05/team-1@2x1.jpg
+"/>
+    </div>
+    <div class="content">
+      <h2>Alex Martinez</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.</p>
+      <a href="#">Read More →</a>
+    </div>
+  </div>
+  <div class="box">
+    <div class="imgBx">
+      <img src="https://arcstudio.liquid-themes.com/wp-content/uploads/2022/05/img-2@2x-11.jpg"/>
+    </div>
+    <div class="content">
+      <h2>Alex Martinez</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.</p>
+      <a href="#">Read More →</a>
+    </div>
+  </div>
+  <div class="box">
+    <div class="imgBx">
+      <img src="https://arcstudio.liquid-themes.com/wp-content/uploads/2022/05/team-2@2x1.jpg"/>
+    </div>
+    <div class="content">
+      <h2>Alex Martinez</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.</p>
+      <a href="#">Read More →</a>
+    </div>
+  </div>
+
+</div>
+    </div>
     </div>
   )
 }
