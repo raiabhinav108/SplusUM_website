@@ -1,0 +1,26 @@
+
+
+.content_im{
+    display: flex;
+    
+}
+
+.marq1 img{
+    width: 15%;
+    height: auto;
+    display: inline-block;
+    padding-right: 6em;
+}
+
+.content_im{
+    position: absolute;
+    white-space: nowrap;
+    will-change: transform;
+    animation: marquee 50s linear infinite;
+  }
+  
+  @keyframes marquee {
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
+  }
+  
