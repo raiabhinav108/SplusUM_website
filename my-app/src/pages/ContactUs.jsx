@@ -45,8 +45,8 @@ const ContactUs = () => {
       <div className={styles.headsection_mr}>
         <div className={styles.tagStyle_mr}>SERVICES</div>
         <div className={styles.mainHead_mr}>
-          Wanna To Chat Further ?<br />
-          We'd Love To Hear From You .
+          Want to chat further ?<br />
+          We'd love to hear from you .
         </div>
         <div className={styles.headcollection}>
           <div className={styles.subHead1}>
