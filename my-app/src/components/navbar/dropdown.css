@@ -2,19 +2,20 @@
 
 
 .dropdown-menu {
-    background: red;
+    background: #fff;
     width: 180px;
     position: absolute;
     top: 80px;
     list-style: none;
     text-align: start;
+    border-radius: 10px;
   }
   
   .dropdown-menu li {
     background: #fff;
     cursor: pointer;
     box-shadow: 0 16px 20px rgba(0,0,0,.09);
-    border-radius: 5px;
+    
     letter-spacing: 0.03rem;
      color:black;
      font-weight: 300;
@@ -39,8 +40,3 @@
     color:black;
   }
   
-  @media screen and (max-width: 960px) {
-    .fa-caret-down {
-      display: none;
-    }
-  }

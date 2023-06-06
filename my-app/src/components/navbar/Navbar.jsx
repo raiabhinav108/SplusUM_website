@@ -3,7 +3,7 @@ import  Button  from './Button';
 import { Link } from 'react-router-dom';
 import './navbar.css';
 import Dropdown from './Dropdown';
-import { useEffect,useRef } from "react";
+
 
 function Navbar() {
   
@@ -69,15 +69,14 @@ function Navbar() {
           </li>
           <li
             className='nav-item'
-            onMouseEnter={onMouseEnter}
-            onMouseLeave={onMouseLeave}
+
           >
             <Link
               to='/studio'
               className='nav-links'
               onClick={closeMobileMenu}
             >
-              TOB
+              THE STUDIO
             </Link>
    
           </li>
@@ -90,7 +89,10 @@ function Navbar() {
               OUR SERVICES
             </Link>
           </li>
-          <li className='nav-item'>
+          <li
+          onMouseEnter={onMouseEnter}
+          onMouseLeave={onMouseLeave}
+           className='nav-item'>
             <Link
               to='/multi'
               className='nav-links'
@@ -98,6 +100,7 @@ function Navbar() {
             >
               PROJECTS
             </Link>
+            {dropdown && <Dropdown/>}
           </li>
           
           <li className='nav-item'>
