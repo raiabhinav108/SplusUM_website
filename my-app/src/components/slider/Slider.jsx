@@ -56,15 +56,7 @@ const Slider = () => {
         onSlideChange={() => console.log("slide change")}
       >
         <SwiperSlide>
-          <motion.div
-            className="curser"
-            variants={variants}
-            animate="default"
-            whileTap={{ scale: 0.6 }}
-            id="mango"
-          >
-            Drag
-          </motion.div>
+      
           <div className="main_imgsld">
 
           
@@ -82,15 +74,7 @@ const Slider = () => {
         </SwiperSlide>
         
         <SwiperSlide >
-          <motion.div
-            className="curser"
-            variants={variants}
-            animate="default"
-            whileTap={{ scale: 0.6 }}
-            id="mango"
-          >
-            Drag
-          </motion.div>
+      
           <div className="main_imgsld2">
 
           
