@@ -12,7 +12,43 @@
 .sub_div_px{
     width:18%;
 }
-
+.fade-in {
+    opacity: 0;
+    transition: opacity 0.8s ease-in-out;
+  }
+  .fade-in1 {
+    opacity: 0;
+    transition: opacity 1.4s ease-in-out;
+  }
+  .fade-in2 {
+    opacity: 0;
+    transition: opacity 1.8s ease-in-out;
+  }
+  .fade-in3 {
+    opacity: 0;
+    transition: opacity 2.2s ease-in-out;
+  }
+  .fade-in4 {
+    opacity: 0;
+    transition: opacity 2.6s ease-in-out;
+  }
+  
+  .fade-in.active {
+    opacity: 1;
+  }
+  .fade-in1.active {
+    opacity: 1;
+  }
+  .fade-in2.active {
+    opacity: 1;
+  }
+  .fade-in3.active {
+    opacity: 1;
+  }
+  .fade-in4.active {
+    opacity: 1;
+  }
+  
 .main_sub_div_px .head_px span{
     color: #000;
     font-family: "Poppins", Sans-serif;
@@ -69,7 +105,7 @@ font-size: 13px;
 }
 .sub_desc_px p{
     font-size: 13px;
-    line-height: 16px;
+    line-height: 18px;
     white-space: normal;
     font-weight: 400;
 }

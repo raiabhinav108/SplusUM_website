@@ -3,6 +3,7 @@ import  Button  from './Button';
 import { Link } from 'react-router-dom';
 import './navbar.css';
 import Dropdown from './Dropdown';
+import { useEffect,useRef } from "react";
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -19,6 +20,28 @@ function Navbar() {
     }
   };
 
+
+    useEffect(() => {
+      const handleScroll = () => {
+        const navbar = document.getElementById("navbar");
+        const sticky = navbar.offsetTop;
+        const isSticky = window.pageYOffset >sticky;
+  
+        if (isSticky) {
+          navbar.classList.add("sticky");
+        } else {
+          navbar.classList.remove("sticky");
+        }
+      };
+  
+      window.addEventListener("scroll", handleScroll);
+  
+      return () => {
+        window.removeEventListener("scroll", handleScroll);
+      };
+    }, []);
+   
+
   const onMouseLeave = () => {
     if (window.innerWidth < 960) {
       setDropdown(false);
@@ -29,7 +52,7 @@ function Navbar() {
 
   return (
     <>
-      <nav className='navbar'>
+      <nav  id="navbar" >
         <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
           S+UM
           
