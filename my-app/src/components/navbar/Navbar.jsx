@@ -6,6 +6,7 @@ import Dropdown from './Dropdown';
 import { useEffect,useRef } from "react";
 
 function Navbar() {
+  
   const [click, setClick] = useState(false);
   const [dropdown, setDropdown] = useState(false);
 
@@ -21,25 +22,25 @@ function Navbar() {
   };
 
 
-    useEffect(() => {
-      const handleScroll = () => {
-        const navbar = document.getElementById("navbar");
-        const sticky = navbar.offsetTop;
-        const isSticky = window.pageYOffset >sticky;
+    // useEffect(() => {
+    //   const handleScroll = () => {
+    //     const navbar = document.getElementById("navbar");
+    //     const sticky = navbar.offsetTop;
+    //     const isSticky = window.pageYOffset >sticky;
   
-        if (isSticky) {
-          navbar.classList.add("sticky");
-        } else {
-          navbar.classList.remove("sticky");
-        }
-      };
+    //     if (isSticky) {
+    //       navbar.classList.add("sticky");
+    //     } else {
+    //       navbar.classList.remove("sticky");
+    //     }
+    //   };
   
-      window.addEventListener("scroll", handleScroll);
+    //   window.addEventListener("scroll", handleScroll);
   
-      return () => {
-        window.removeEventListener("scroll", handleScroll);
-      };
-    }, []);
+    //   return () => {
+    //     window.removeEventListener("scroll", handleScroll);
+    //   };
+    // }, []);
    
 
   const onMouseLeave = () => {
@@ -52,7 +53,7 @@ function Navbar() {
 
   return (
     <>
-      <nav  id="navbar" >
+      <nav  className="navbar" >
         <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
           S+UM
           

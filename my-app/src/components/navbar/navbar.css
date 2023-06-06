@@ -3,7 +3,7 @@
 
 
 
-#navbar {
+.navbar {
     background:  #F8F8F8;
    
     height: 65px;
@@ -14,20 +14,8 @@
     font-family: 'Poppins', sans-serif;
     letter-spacing: 0.09rem;
     z-index: 999;
-    width: 100%;
-    position: fixed;
-   
-  top:0;
-  }
-  .sticky {
-    
-    top: 0;
-    width: 100%;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
-
     
   }
-  
   
   .navbar-logo {
     color: #000000;
