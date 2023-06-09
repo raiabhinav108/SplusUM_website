@@ -114,7 +114,7 @@ const ContactUs = () => {
     <p>Subject</p>
      </div>
      <div className={styles.subdiv_input_kr}>
-     <input type="text" placeholder="How can i help you" name="email" size="30" id="cont" required/><br/>
+     <input type="text" placeholder="How can we help you" name="email" size="30" id="cont" required/><br/>
       </div>
       </div>
       
