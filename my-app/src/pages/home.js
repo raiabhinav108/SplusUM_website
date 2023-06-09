@@ -19,6 +19,7 @@ import Testimonials from "../components/testimonials/Testimonials";
 import AboutSub from "../components/aboutSub/AboutSub";
 import KeyWorks from "../components/keyWorks/KeyWorks";
 import Hello from "../components/hello/Hello";
+import NewNav from "../components/newnav/NewNav";
 
 const Home = () => {
   const [loading, setloading] = useState(false);
@@ -26,7 +27,7 @@ const Home = () => {
     setloading(true);
     setTimeout(() => {
       setloading(false);
-    }, 4000);
+    }, 2500);
   }, []);
   return (
     <div>
@@ -46,7 +47,7 @@ const Home = () => {
         </div>
         :
         <div>
-        <Navbar />
+        <NewNav/>
 
 <Slider />
 

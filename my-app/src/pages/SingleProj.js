@@ -10,6 +10,7 @@ import { useEffect, useState } from "react";
 import { useMediaQuery } from "@material-ui/core";
 import Contact from "../components/contact/Contact";
 import Footer from "../components/footer/Footer"
+import NewNav from "../components/newnav/NewNav";
 const SingleProject = () => {
     const [number, setNumber] = useState(1);
     const handleSlideChange = (swiper) => {
@@ -20,7 +21,7 @@ const SingleProject = () => {
   return (
     <div>
       <div className={styles.singleparent}>
-        <Navbar />
+        <NewNav />
         <div className={styles.tob}>The Only Burger</div>
         <div className={styles.line}>
           <hr className={styles.hore}></hr>
