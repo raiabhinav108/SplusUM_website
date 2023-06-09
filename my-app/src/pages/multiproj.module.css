@@ -26,7 +26,7 @@
     font-weight: 500;
     text-transform: none;
     line-height: 1em;
-    letter-spacing: -1px;
+    letter-spacing: -2px;
     white-space: normal;
     margin: 0.5em -1em 0.5em 0em
 }
@@ -44,10 +44,7 @@
     height: 120px;
 }
 @media only screen and (max-width:767px){
-    #contain{
-        
-        margin-left: 24px;
-    } 
+
     .group{
         width: 90%;
     }
