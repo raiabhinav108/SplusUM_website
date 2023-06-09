@@ -2,11 +2,14 @@ import { Link } from "react-router-dom";
 import Contact from "../components/contact/Contact";
 import Footer from "../components/footer/Footer";
 import Navbar from "../components/navbar/Navbar";
+import NewNav from "../components/newnav/NewNav";
 import styles from "./multiproj.module.css";
 const MultipleProj = () => {
   return (
+    
+   
     <div className={styles.multiparent}>
-        <Navbar/>
+    <NewNav/>
       <div className={styles.group}>
         <div className={styles.projHead}>
           <div className={styles.tagStyle}>RECENT WORKS</div>
@@ -132,6 +135,7 @@ const MultipleProj = () => {
       <div className={styles.void}></div>
       <Footer/>
     </div>
+    
   );
 };
 

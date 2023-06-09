@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Footer from "../components/footer/Footer";
 import Navbar from "../components/navbar/Navbar";
+import NewNav from "../components/newnav/NewNav";
 import styles from "./contact.module.css";
 const ContactUs = () => {
   const [change, nochange] = useState("https://s3-us-west-2.amazonaws.com/handel-architects/images/general_170911_183005.svg")
@@ -40,7 +41,7 @@ const ContactUs = () => {
   }
   return (
     <div>
-      <Navbar/>
+      <NewNav/>
       <div className={styles.contactparent_mr}>
       <div className={styles.headsection_mr}>
         <div className={styles.tagStyle_mr}>SERVICES</div>
