@@ -78,6 +78,87 @@ const ContactUs = () => {
       
     </div>
     <img width="100%" className={styles.contactimg_mr} src="https://arcstudio.liquid-themes.com/wp-content/uploads/2022/04/bridge.jpeg"></img>
+    
+    <form class={styles.main_form_kr} action="/" method="post">
+     <div className={styles.dts_kr}>
+     <div className={styles.subdts1_kr}>
+     <div className={styles.subdivpara_kr}>
+    <p>Nice to meet you</p>
+     </div>
+     <div className={styles.subdiv_input_kr}>
+     <input type="text" placeholder="What's your name" name="email" size="30" id="cont" required/><br/>
+      </div>
+      </div>
+      <div className={styles.subdts2_kr}>
+     <div className={styles.subdivpara_kr}>
+    <p>Email adrdess</p>
+     </div>
+     <div className={styles.subdiv_input_kr}>
+     <input type="text" placeholder="Enter your email address" name="email" size="30" id="cont" required/><br/>
+      </div>
+      </div>
+      
+
+</div>
+     <div className={styles.dts_kr}>
+     <div className={styles.subdts1_kr}>
+     <div className={styles.subdivpara_kr}>
+    <p>Optional</p>
+     </div>
+     <div className={styles.subdiv_input_kr}>
+     <input type="text" placeholder="Your phone number" name="email" size="30" id="cont" required/><br/>
+      </div>
+      </div>
+      <div className={styles.subdts2_kr}>
+     <div className={styles.subdivpara_kr}>
+    <p>Subject</p>
+     </div>
+     <div className={styles.subdiv_input_kr}>
+     <input type="text" placeholder="How can i help you" name="email" size="30" id="cont" required/><br/>
+      </div>
+      </div>
+      
+
+</div>
+     <div className={styles.dts_kr}>
+     <div className={styles.subdts1_kr}>
+     <div className={styles.subdivpara_kr}>
+    <p>Budget</p>
+     </div>
+     <div className={styles.subdiv_input_kr}>
+     <input type="text" placeholder="Your budget" name="email" size="30" id="cont" required/><br/>
+      </div>
+      </div>
+      <div className={styles.subdts2_kr}>
+     <div className={styles.subdivpara_kr}>
+    <p>Interested Service</p>
+     </div>
+     <div className={styles.subdiv_input_kr}>
+     <input type="text" placeholder="Construction" name="email" size="30" id="cont" required/><br/>
+      </div>
+      </div>
+      
+
+</div>
+ 
+<div className={styles.desc_text_kr}>
+
+<textarea  placeholder='Tell us about your project' rows="8" cols="70"></textarea>
+</div>
+
+
+
+      
+<button type="submit" class={styles.registerbtn_kr}>Send Message</button> 
+
+    
+
+
+  </form>
+    
+    
+    
+    
     <div className={styles.contactgrp_mr}>
       <div className={styles.group1} id="grp1" onMouseOver={changebackground} onMouseLeave={changebackgroundtowhite}>
         <img className={styles.icons_mr} src={change}></img>
@@ -128,7 +209,14 @@ const ContactUs = () => {
               
             </div>
       </div>
-    </div>
+    </div> 
+
+
+
+
+
+
+
     <Footer/>
     </div>
     

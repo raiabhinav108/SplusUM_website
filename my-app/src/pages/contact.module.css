@@ -48,7 +48,7 @@
 }
 .contactgrp_mr{
     display: flex;
-    width: 82%;
+    width: 72%;
     margin: 0 auto;
     justify-content: space-around;
     margin-top: 50px;
@@ -79,13 +79,13 @@
     flex: 1 1 30%;
     min-width: 200px;
     margin: 15px;
-    border: 1px solid #c8d1d7;
+    border: 2px solid #c8d1d7;
     align-self: stretch;
     margin-bottom: 30px;
 }
 .mapandgroup{
     display: flex;
-    width: 82%;
+    width: 72%;
     margin: 0 auto;
     margin-bottom: 50px;
     
@@ -123,6 +123,132 @@
 .subhead_mr{
     font-size: 14px;
 }
+
+
+
+
+.dts_kr{
+    display: flex;
+    flex-direction: row;
+    opacity:0.75;
+}
+.subdts1_kr{
+    width:50%;
+    border: 0.5px solid gray;
+    padding:20px 16px;
+    background-color: #fff;
+}
+.subdts2_kr{
+    width:50%;
+    border: 0.5px solid gray;
+    padding:20px 16px;
+    background-color: #fff;
+}
+.subdivpara_kr p{
+    font-size: 0.8rem;
+    letter-spacing: 0.01rem;
+    color: #4B4B4C;
+    
+}
+.subdiv_input_kr input,input::placeholder {
+    padding-top: 0.5em;
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #BAB6B6;
+
+}
+
+.main_form_kr{
+    width:70%;
+    margin: 0 auto;
+    margin-top: 7em;
+    
+} 
+
+.subdiv_input_kr input{
+    border:none;
+    background-color: #fff;
+    color:white;
+}
+.subdiv_input_kr input:focus{
+    border:none;
+    outline: none;
+}
+.desc_text{
+    padding-bottom: 0.5em;
+}
+
+ .registerbtn_kr {
+    background-color: #000;
+    color: white;
+    padding: 16px 20px;
+    margin: 20px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 1;
+    transition: all 0.3s ease;
+    }
+    
+    .registerbtn_kr:hover {
+    background-color: rgb(33, 30, 30);
+    color:#fff;
+    }
+    .desc_text{
+      
+opacity:0.75;
+    }
+    .desc_text_kr textarea{
+        border: 0.5px solid gray;
+        width:100%;
+        background-color: white;
+        
+    }
+    .desc_text_kr textarea:focus{
+        
+        outline: none;
+    }
+    .desc_text_kr textarea,textarea::placeholder {
+        padding: 10px 5px;
+        font-size: 1rem;
+        font-weight: 400;
+        font-family: 'Poppins', sans-serif;
+        color:#BAB6B6;
+    }
+
+    @media screen and (max-width: 767px) {
+        .main_form_kr{
+            width:96%;
+         
+            
+        } 
+        .dts_kr{
+            display: flex;
+            flex-direction: column;
+            
+        }
+        .subdts1_kr{
+            width:100%;
+            border: 0.5px solid gray;
+            padding:20px 12px;
+        }
+        .subdts2_kr{
+            width:100%;
+            border: 0.5px solid gray;
+            padding:20px 12px;
+        }
+
+    }
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width:767px){
     .headcollection{
         flex-direction: column;
