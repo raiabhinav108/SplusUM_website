@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+
+$midnight: #f8f8f8;
+$clouds: #ecf0f1;
+.tabledata{
+  font-family: 'Poppins', sans-serif;
+  width:75%;
+  margin: 0 auto;
+  margin-top: 5em;
+}
+
+.tab input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+.tab1 input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+// Layout
+.row {
+  display:flex;
+  .col {
+    flex:1;
+
+  }
+}
+/* Accordion styles */
+.tabs {
+  
+  overflow: hidden;
+ 
+}
+.tab1 {
+  border-top: 1px solid black;
+    color: black;
+    overflow: hidden;
+    & label {
+      display: flex;
+      justify-content: space-between;
+      padding: 0.3em 0.4em;
+      background: $midnight;
+      font-weight: 400;
+      cursor: pointer;
+      /* Icon */
+  
+      &::after {
+        content: '';
+        width: 0em;
+        height: 0em;
+        text-align: center;
+        transition: all .35s;
+      }
+  
+    }
+  
+    
+    
+    &-content {
+      max-height: 0;
+      padding: 0 1em;
+      color: black;
+      background: #f8f8f8;
+      transition: all .35s ease-in;
+    }
+    &-close {
+      display: flex;
+      justify-content: flex-end;
+      padding: 1em;
+      font-size: 0.75em;
+      background: $midnight;
+      cursor: pointer;
+  
+    }
+  }
+.tab {
+border-top: 1px solid black;
+  color: black;
+  overflow: hidden;
+  &-label {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.3em 0.4em;
+    background: $midnight;
+    font-weight: 400;
+    cursor: pointer;
+    /* Icon */
+
+    &::after {
+      content: "\276F";
+      width: 1em;
+      height: 1em;
+      text-align: center;
+      transition: all .35s;
+    }
+
+  }
+
+  
+  
+  &-content {
+    max-height: 0;
+    padding: 0 1em;
+    color: black;
+    font-size: 0.9rem;
+    background: #f8f8f8;
+    transition: all .35s;
+  }
+  &-close {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em;
+    font-size: 0.75em;
+    background: $midnight;
+    cursor: pointer;
+
+  }
+}
+
+// :checked
+input:checked {
+  + .tab-label {
+    
+    &::after {
+      transform: rotate(90deg);
+    }
+  }
+  ~ .tab-content {
+    max-height: 100vh;
+    padding: 1em;
+  }
+}
+
+.program_tb{
+  display: flex;
+  font-size: 0.9rem;
+  padding-left:12em;
+}
+.sub1_tb{
+  padding-right: 4em;
+}
+.team_tb{
+  display: flex;
+  font-size: 0.9rem;
+  padding-left:12em;
+  padding-bottom: 1em;
+}
+
+@media only screen and (max-width:767px){
+
+.tabledata{
+  
+  width:90%;
+  
+}
+.team_tb{
+ 
+  padding-left:5em;
+}
+.program_tb{
+  
+  padding-left:5em;
+}
+.sub1_tb{
+  padding-right: 1.3em;
+}
+}

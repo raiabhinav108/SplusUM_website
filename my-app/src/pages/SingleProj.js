@@ -11,6 +11,8 @@ import { useMediaQuery } from "@material-ui/core";
 import Contact from "../components/contact/Contact";
 import Footer from "../components/footer/Footer"
 import NewNav from "../components/newnav/NewNav";
+import Display from "../sinprojComponents/display/Display";
+import TabularData from "../sinprojComponents/tabularData/TabularData";
 const SingleProject = () => {
     const [number, setNumber] = useState(1);
     const handleSlideChange = (swiper) => {
@@ -49,8 +51,7 @@ const SingleProject = () => {
       </div>
       <div className={styles.intro}>
         <div className={styles.introhead}>
-          Serif and The Line Hotel's textured facade offers a contemporary
-          interpretation of the surrounding masonry context.
+        Madison House is a slender luxury residential visually defined by delicate vertical banding and a sharp skyline presence.
         </div>
         <div className={styles.introbody}>
           Serif and The Line Hotel is a new 12-story mixed-use hotel and
@@ -97,6 +98,8 @@ const SingleProject = () => {
       </div>
         </div>
       </div>
+      <Display/>
+      <TabularData/>
       <Contact/>
       <div className={styles.void}>
       </div>
