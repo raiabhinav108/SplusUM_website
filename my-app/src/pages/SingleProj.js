@@ -51,8 +51,7 @@ const SingleProject = () => {
       </div>
       <div className={styles.intro}>
         <div className={styles.introhead}>
-          Serif and The Line Hotel's textured facade offers a contemporary
-          interpretation of the surrounding masonry context.
+        Madison House is a slender luxury residential visually defined by delicate vertical banding and a sharp skyline presence.
         </div>
         <div className={styles.introbody}>
           Serif and The Line Hotel is a new 12-story mixed-use hotel and

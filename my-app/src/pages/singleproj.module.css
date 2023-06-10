@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500&display=swap');
 .singleparent{
     background-color: black;
+    font-family: 'poppins';
     
 }
 .tob{
@@ -70,8 +71,13 @@
     margin-bottom: 20px ;
 }
 .introbody{
+    margin-bottom: 2em;
+    font-size: 0.95em;
+    line-height: 1.5rem;
+    letter-spacing: 0.02rem;
     width: 75%;
-    margin-bottom: 60px ;
+    
+    
 }
 .swipperhead{
     font-size: 1.5em;
@@ -115,6 +121,10 @@
     height: 120px;
 }
 @media only screen and (max-width:767px) {
+    .tob{
+        margin-left: 0%;
+        margin-right:0% ;
+    }
     .arrows_slider{
         display: none;
     }
@@ -149,9 +159,36 @@
     font-size: 13px;
 }
 .information{
-    gap: 1em;
-    
-    
+    gap: 1em;  
+}
+.set1{
+    display: none;
+}
+.set2{
+    padding-right: 1.4em;
+}
+.set3{
+    padding-right: 1.2em;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 4%;
+    margin-top: 60px;
+    font-family: "poppins";
+}
+.introhead{
+    width: 100%;
+    font-size: 1.7em;
+    font-style: bold;
+    font-weight: 600;
+    margin-bottom: 20px ;
+}
+.introbody{
+    width: 100%;
+    margin-bottom: 60px ;
+    padding-right: 5%;
 }
 }
 
