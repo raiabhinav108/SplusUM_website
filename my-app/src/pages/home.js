@@ -27,7 +27,7 @@ const Home = () => {
     setloading(true);
     setTimeout(() => {
       setloading(false);
-    }, 2500);
+    }, 1000);
   }, []);
   return (
     <div>
