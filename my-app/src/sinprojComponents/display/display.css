@@ -1,0 +1,21 @@
+.display_kr{
+    display: flex;
+    flex-direction: column;
+}
+.disp_img{
+    width: 75%;
+    height:auto;
+    margin: 0 auto;
+    padding-top: 4em;
+}
+.disp_img img{
+    width: 100%;
+    height:auto;
+}
+
+@media only screen and (max-width:767px){
+    .disp_img{
+        width:90%;
+        padding-top:3em;
+    }
+}
