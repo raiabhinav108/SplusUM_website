@@ -3,7 +3,7 @@
 .main_px{
     margin-top: 33em;
     display: flex;
-    padding: 20px 6% 100px;
+    padding: 20px 10% 100px;
 }
 
 .main_sub_div_px{
@@ -14,23 +14,23 @@
 }
 .fade-in {
     opacity: 0;
-    transition: opacity 0.8s ease-in-out;
+    transition: opacity 0.4s ease-in-out;
   }
   .fade-in1 {
     opacity: 0;
-    transition: opacity 1.4s ease-in-out;
+    transition: opacity 0.8s ease-in-out;
   }
   .fade-in2 {
     opacity: 0;
-    transition: opacity 1.8s ease-in-out;
+    transition: opacity 1.2s ease-in-out;
   }
   .fade-in3 {
     opacity: 0;
-    transition: opacity 2.2s ease-in-out;
+    transition: opacity 1.6s ease-in-out;
   }
   .fade-in4 {
     opacity: 0;
-    transition: opacity 2.6s ease-in-out;
+    transition: opacity 2s ease-in-out;
   }
   
   .fade-in.active {

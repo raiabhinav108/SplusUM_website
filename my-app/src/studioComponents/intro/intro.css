@@ -9,8 +9,8 @@
 
 .intro_main .head_kr_intro{
     margin-bottom: 1em;
-    padding-left:6.5% ;
-    padding-right:6.5% ;
+    padding-left:10% ;
+    padding-right:10% ;
 }
 
 .intro_main .head_kr_intro span{
@@ -29,8 +29,8 @@
 
 
 .intro_main .head_kr_intro2 {
-    padding-left:6.5% ;
-    padding-right:6.5% ;
+    padding-left:10% ;
+    padding-right:10% ;
 
     font-size: 109px;
     font-weight: 500;
@@ -41,7 +41,7 @@
     margin-bottom: 1.2em;
 }
 .intro_main .vision_sub_kr{
-    padding: 5em 6.5% 0;
+    padding: 5em 10% 0;
 }
 
 .intro_main .vision_sub_kr p{

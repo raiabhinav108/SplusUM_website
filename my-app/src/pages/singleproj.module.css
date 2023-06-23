@@ -64,7 +64,8 @@
     font-family: "poppins";
 }
 .introhead{
-    width: 75%;
+    padding-left:10% ;
+    padding-right: 10%;
     font-size: 2em;
     font-style: bold;
     font-weight: 600;
@@ -75,7 +76,8 @@
     font-size: 0.95em;
     line-height: 1.5rem;
     letter-spacing: 0.02rem;
-    width: 75%;
+    padding-left:10% ;
+    padding-right: 10%;
     
     
 }
@@ -87,8 +89,8 @@
     margin-bottom: 20px;
 }
 .swipper{
-    width: 75%;
-    margin: 0 auto;
+   padding-left:10% ;
+   padding-right: 10%;
 }
 
 .arrows_slider{
