@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
 .team_section{
-    padding: 90px 6.5% 50px;
+    padding: 90px 10% 50px;
     min-height: 700px;
     background-color: #F8F8F8;
 }
@@ -15,7 +15,7 @@
 }
 .divider{
     margin: 0.8em 0;
-    width:99%;
+    width:100%;
     color: #000000;
     height:1.2px;
 }

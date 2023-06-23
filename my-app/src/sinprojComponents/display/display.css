@@ -3,9 +3,10 @@
     flex-direction: column;
 }
 .disp_img{
-    width: 75%;
+   padding-left: 10%;
+   padding-right: 10%;
     height:auto;
-    margin: 0 auto;
+    
     padding-top: 4em;
 }
 .disp_img img{

@@ -42,14 +42,14 @@ const ParallaxEffect = () => {
         <div className="head_num"><span>02</span></div>
         <div className="head_desc"><h3>/ Schematic</h3></div>
         </div>
-            <div className="sub_desc_px"><p>Through a unique combination of engineering, construction and design disciplines and expertise, Concor delivers world class infrastructure solutions to customers and stakeholders across a broad range of industry sectors.</p></div>
+            <div className="sub_desc_px"><p>Through a unique combination of engineering, construction and design disciplines and expertise, Concor delivers world class infrastructure solutions to customers and stakeholders across.</p></div>
         </div>
         <div className={`sub_div_px ${isVisible ? 'fade-in3 active' : 'fade-in3'}`}>
         <div className="sub_head_px">
         <div className="head_num"><span>03</span></div>
         <div className="head_desc"><h3>/ Concept</h3></div>
         </div>
-            <div className="sub_desc_px"><p>Since the 1980s, as the complexity of buildings began to increase, the field of architecture became multi-disciplinary with specializations for each Through a unique combination of engineering, construction and design disciplines and expertise.</p>
+            <div className="sub_desc_px"><p>Since the 1980s, as the complexity of buildings began to increase, the field of architecture became multi-disciplinary with specializations for each  a unique combination of engineering.</p>
 </div>
         </div>
         <div className={`sub_div_px ${isVisible ? 'fade-in4 active' : 'fade-in4'}`}>
@@ -57,7 +57,7 @@ const ParallaxEffect = () => {
         <div className="head_num"><span>04</span></div>
         <div className="head_desc"><h3>/ Offer</h3></div>
         </div>
-            <div className="sub_desc_px"><p>Hub embraces holistic development and support for employees the aim of being a first-choice employer our sectors. Since the 1980s, as the complexity of buildings began to increase, the field of architecture became multi-disciplinary</p>
+            <div className="sub_desc_px"><p>Hub embraces holistic development and support for employees the aim of being a first-choice employer our sectors. Since the 1980s, as the complexity of buildings began to increase.</p>
 </div></div>
 
 
