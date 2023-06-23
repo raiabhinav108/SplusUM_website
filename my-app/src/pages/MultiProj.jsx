@@ -23,7 +23,7 @@ const MultipleProj = () => {
           Donec a fringilla libero.
         </div>
       </div>
-      <div className="container my-24 px-6 mx-auto">
+      <div className="container my-24 px-6 mx-auto" id="containermulti">
         {/* Section: Design Block */}
         <section className="mb-32 text-gray-800 text-center lg:text-left" id="container">
           
@@ -77,7 +77,7 @@ const MultipleProj = () => {
         </section>
         {/* Section: Design Block */}
       </div>
-      <div className="container my-24 px-6 mx-auto">
+      <div className="container my-24 px-6 mx-auto" id="containermulti2">
         {/* Section: Design Block */}
         <section className="mb-32 text-gray-800 text-center lg:text-left" id="container">
           
