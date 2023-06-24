@@ -23,7 +23,7 @@ const CardItems = (props) => {
        Utilizing wood in architecture
         </div>
         <div className="card_desc">
-       Through a unique combination of engineering, construction and design disciplines and expertise.
+       Through a unique line combination of engineering, construction and design disciplines and expertise.
         </div>
         </div>        
     </div>

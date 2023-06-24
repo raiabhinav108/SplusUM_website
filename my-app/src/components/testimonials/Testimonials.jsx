@@ -37,12 +37,10 @@ const Testimonials = () => {
     </div>
     <div style={{width:'99%'}} className="hr1"></div>
     <div className="heading_main1">
-        <div className="heading1">
-        Hear From
-        </div>
-        <div className="heading2">
-        Customers
-        </div>
+       <h2>
+        Hear From</h2>
+       <h2>Customers</h2>
+ 
         </div>
        
         <div className="main_pagination" >
@@ -57,7 +55,7 @@ const Testimonials = () => {
         <img className="quotes_img blow diss " src="https://arcstudio.liquid-themes.com/wp-content/uploads/2022/03/quote.svg" alt="Quote" width="128" height="83"></img>
         </div>
         </div>
-    <Swiper style={{ width: '100%' }}
+    <Swiper style={{ width: '100%'}}
       modules={[Navigation, Pagination, Scrollbar, A11y]}
 
         speed={1500}
@@ -74,15 +72,15 @@ const Testimonials = () => {
 
                          
  
-             <SwiperSlide><div className="imageparent1"><motion.div style={{y}} className="sliderimages" >
+             <SwiperSlide ><div className="imageparent1"><motion.div style={{y}} className="sliderimages" >
 
-        <div className="fd_desc"><p>Urban design draws together the many strands of place-making, environmental stewardship, social equity and economic viability into the creation of places with distinct beaut.</p></div>
+        <div className="fd_desc"><p>Urban design draws together the many strands of place-making, environmental stewardship, social equity and economic viability into the creation of places .</p></div>
             <div className="fd_para"><h3>Samantha John, ceo</h3></div>
         </motion.div></div></SwiperSlide>
         
         
         <SwiperSlide><div className="imageparent1"><motion.div style={{y}} >
-            <div className="fd_desc"><p>Through a unique combination of engineering, construction and design disciplines and expertise, Concor delivers world class infrastructure .</p></div>
+            <div className="fd_desc"><p>Through a unique combination of engineer, construction and design disciplines and expertise, Concor delivers world class infrastructure .</p></div>
             <div className="fd_para"><h3>Jose Sanchez, liquid</h3></div>
         </motion.div></div></SwiperSlide>
 
@@ -100,7 +98,7 @@ const Testimonials = () => {
         
         
         <SwiperSlide className="dissp_fd"><div className="imageparent1"><motion.div style={{y}} >
-            <div className="fd_desc"><p>Through a unique combination of engineering, construction and design disciplines and expertise, Concor delivers world class infrastructure solutions and more.</p></div>
+            <div className="fd_desc"><p>Through a unique combination of engineer, construction and design disciplines and expertise, Concor delivers world class infrastructure solutions and more.</p></div>
             <div className="fd_para"><h3>Jose Sanchez, liquid</h3></div>
         </motion.div></div></SwiperSlide>
 

@@ -24,6 +24,15 @@
     padding: 1.2%;
     width:33.33%;
 }
+.hr1_team{
+    
+    width: 99%;
+    margin: 0.8em 0 60px;
+  
+    height: 1px;
+    background-color: #000000;
+    
+}
 .team_main_section{
     display:flex;
     font-family: "Poppins", Sans-serif;
@@ -74,8 +83,9 @@ small{
     
     margin-bottom: 0.5em;
     vertical-align: middle;
-   line-height: 1.5rem;
+    letter-spacing: 0.02rem;
     font-size: 14px;
+    line-height: 22px;
 }
 @media only screen and (max-width:1024px) {
 .team_section{

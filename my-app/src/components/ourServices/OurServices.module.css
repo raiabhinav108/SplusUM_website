@@ -19,34 +19,33 @@
     height: 1px;
     background-color: #000000;
 }
-.Headingpart{
+.Headingpart {
     color: #000000;
     width:50%;
-    font-size: 2.7rem;
+    font-size: 40px;
     font-weight: 500;
     text-transform: none;
-    line-height: 3rem;
-    letter-spacing: 0;
-    
-    padding-bottom: 1.5em;
+    line-height: 46px;
+    letter-spacing: -0.03em;
+    padding-top: 12px;
+    padding-bottom: 0.8em;
 }
 .mid{
     
     display: flex;
    
 }
-.Contentpart{
-    
-    font-size: 0.85em;
-    line-height: 1.5rem;
+.Contentpart p{
     letter-spacing: 0.02rem;
+    font-size: 14px;
+    line-height: 22px;
     width: 85%;
     /* font-weight: 300;
     font-size: 14px;
     width: 80%; */
 }
 .Accordion{
-    width: 100%;   
+    width: 90%;   
 }
 .Accordion h4{
     font-weight: 600;
@@ -90,6 +89,9 @@ line-height: 1.5em;
         
         
     }
+    .Accordion{
+        width: 100%;   
+    }
     .mid{
     
         display: flex;
@@ -99,7 +101,7 @@ line-height: 1.5em;
     .writtenpart{
         width: 100%;
     }
-    .Contentpart{
+    .Contentpart p{
         width:100%;
     }
     .Accordion{

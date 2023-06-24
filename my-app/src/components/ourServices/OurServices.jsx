@@ -41,11 +41,11 @@ const OurServices = () => {
       <div className={styles.mid}>
         <div className={styles.writtenpart}>
           <div className={styles.Headingpart}>
-            <h1>Functional</h1>
-            <h1>-Spaces</h1>
+            <h2>Functional</h2>
+            <h2>-Spaces</h2>
           </div>
           <div className={styles.Contentpart}>
-          Through a unique combination of engineering, construction and design disciplines and expertise, Concor delivers world class infrastructure solutions to customers and stakeholders across a
+          <p>Through a unique combination of engineering, construction and design disciplines and expertise, Concor delivers world class infrastructure solutions to customers and stakeholders </p>
 
             <div className={styles.buttonParent}>
             <button className='cont_btn'></button>

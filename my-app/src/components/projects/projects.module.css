@@ -19,28 +19,28 @@
 .headplussub{
     width: 70%;
 }
-.pjofhead{
+.pjofhead h2{
     color: #000000;
     width:50%;
-    font-size: 2.7rem;
+    font-size: 40px;
     font-weight: 500;
     text-transform: none;
-    line-height: 2.5rem;
-    letter-spacing: 0px;
-    padding: 0.4em 0 0.5em;
+    line-height: 46px;
+    letter-spacing: -0.03em;
+    margin-bottom: 16px;
     
     
    
 }
-.subhead_pj{
+.subhead_pj p{
     font-family: "poppins";
     font-weight: 400;
     padding-bottom: 50px;
     width: 70%;
-       
-    font-size: 0.85em;
-    line-height: 1.5rem;
     letter-spacing: 0.02rem;
+    font-size: 14px;
+    line-height: 22px;
+  
 }
 .card_l{
 
@@ -86,31 +86,26 @@
     
 }
 
-.projehead{
-    display: flex;
-    justify-content: space-between;
 
-
-}
-.projemainhead{
+.projemainhead h5{
     color: #000000;
     font-family: "Poppins", Sans-serif;
-    font-size: 1em;
+    font-size: 20px;
     font-weight: 500;
    
-    line-height: 1.1em;
-    letter-spacing: 0.6px;
-    margin-bottom: 1.5em;
+    line-height: 24px;
+    letter-spacing: 0.015em;
+    margin-bottom: 0.5em;
 }
 
 
-.projepara{
+.projepara p{
     font-weight: 400;
     padding-bottom: 50px;
   
-    font-size: 0.85em;
-    line-height: 1.5rem;
-    letter-spacing: 0.03rem;
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.02rem;
 }
 
 @media only screen and (max-width:1024px) {
@@ -121,7 +116,7 @@
     .card_r{
         padding-left: 10%;
     }
-    .subhead_pj{
+    .subhead_pj p{
 
         width: 85%;
     }
@@ -134,9 +129,7 @@
     .Projectsets{
         padding-left:4%;
         padding-right:4%;
-        
-        
-        
+            
     }
     .cardsSet{
    
@@ -154,13 +147,13 @@
      .card_r{
         padding-left: 0%;
     }
-    .subhead_pj{    
+    .subhead_pj p{    
         width: 100%;
     }
     .headplussub{
         width: 100%;
     }
-    .pjofhead{
+    .pjofhead h2{
 
         width:100%;
     }

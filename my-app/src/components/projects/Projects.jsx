@@ -14,10 +14,10 @@ const Projects = () => {
           CASE STUDIES
         </div>
           <div className={styles.pjofhead}>
-            <h1>Recent Projects</h1>
+            <h2>Recent Projects</h2>
           </div>
           <div className={styles.subhead_pj}>
-          Hub Construction employs over 2000 employees, the majority of whom are based on project sites. We embrace holistic development.
+          <p>Hub Construction employs over 2000 employees, the majority of whom are based on project sites. We embrace holistic development.</p>
           </div>
         </div>
 
@@ -32,7 +32,7 @@ const Projects = () => {
             <div className={styles.cardDescrip}>
             <div className={styles.projehead}>
             <div className={styles.projemainhead}>
-                <h4>South Florida Towers</h4>
+                <h5>South Florida Towers</h5>
                 </div>
              
               
@@ -55,7 +55,7 @@ const Projects = () => {
             <div className={styles.cardDescrip}>
             <div className={styles.projehead}>
             <div className={styles.projemainhead}>
-                <h4>South Florida Towers</h4>
+                <h5>South Florida Towers</h5>
                 </div>
              
               
@@ -71,52 +71,7 @@ const Projects = () => {
      
           
         </div>
-        <div className={styles.cardsSet_second}>
-          <div  className={styles.card_l}>
-          
-            <div  className={styles.cardimg}>
-            <motion.img className={styles.projimage}   src="https://arcstudio.liquid-themes.com/wp-content/uploads/2022/03/Img.jpg" />
-         
-       
-            </div>
-            <div className={styles.cardDescrip}>
-            <div className={styles.projehead}>
-            <div className={styles.projemainhead}>
-                <h4>Sydney Opera House</h4>
-                </div>
-             
-              
-              
-              </div>
-              <div className={styles.projepara}>
-              <p>Through a unique combination of engineering, construction and design disciplines and expertise,</p>
-            </div>
-            </div>
-          </div>
-          <div  className={styles.card_r}>
-          
-
-            <div  className={styles.cardimg}>
-            <motion.img className={styles.projimage}   src="https://arcstudio.liquid-themes.com/wp-content/uploads/2022/03/Img.jpg" />
-            </div>
-         
-            <div className={styles.cardDescrip}>
-            <div className={styles.projehead}>
-            <div className={styles.projemainhead}>
-                <h4>Sydney Opera House</h4>
-                </div>
-             
-              
-              
-              </div>
-              <div className={styles.projepara}>
-              <p>Through a unique combination of engineering, construction and design disciplines and expertise,</p>
-            </div>
-            </div>
-          </div>
-     
-          
-        </div>
+  
       </div>
    
   );

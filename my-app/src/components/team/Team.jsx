@@ -6,7 +6,7 @@ const Team = () => {
         <div className="heading_team">
             TEAM MEMBERS
         </div>
-        <div style={{marginBottom:'0'}} className="hr1"></div>
+        <div style={{marginBottom:'0'}} className="hr1_team"></div>
         <div className="team_main_section">
             <div className="main_card">
              <div className="personal_image">
@@ -16,7 +16,7 @@ const Team = () => {
                 <h3> Daniel Mark  <small>/ Architect</small></h3>
              </div>
              <div className="card_para">
-              <p>Through a unique combination of engineering, construction and design disciplines and expertise.</p>
+              <p>Through a unique combination of engineering, construction and design disciplines.</p>
              </div>
             </div>
             <div className="main_card">
@@ -37,7 +37,7 @@ const Team = () => {
                
              </div>
              <div className="card_para">
-              <p>Through a unique combination of engineering, construction and design disciplines and expertise.</p>
+              <p>Through a unique combination of engineering, construction and design disciplines.</p>
            
              </div>
             </div>

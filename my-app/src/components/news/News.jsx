@@ -6,12 +6,12 @@ const News = () => {
     <div className="news_section">
     <div className="upper_section">
         <div className="heading">
-        <div className="heading1">
+        <h2>
         Latest 
-        </div>
-        <div className="heading2">
+        </h2>
+        <h2>
         -Posts
-        </div>
+        </h2>
         
         </div>
         <div className="sub_heading">
