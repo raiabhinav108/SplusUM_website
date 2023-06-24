@@ -17,7 +17,7 @@ const Projects = () => {
             <h2>Recent Projects</h2>
           </div>
           <div className={styles.subhead_pj}>
-          <p>Hub Construction employs over 2000 employees, the majority of whom are based on project sites. We embrace holistic development.</p>
+          <p>Hub Construction employs over 2000 employ, the majority of whom are based on project sites. We embrace holistic development.</p>
           </div>
         </div>
 
