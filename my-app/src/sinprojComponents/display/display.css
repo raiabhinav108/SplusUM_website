@@ -48,8 +48,10 @@
 
 @media only screen and (max-width:767px){
     .disp_img{
-        width:90%;
+        width:100%;
         padding-top:3em;
+        padding-left: 5%;
+        padding-right: 5%;
     }
     .disp_img_sec{
           display: flex;
