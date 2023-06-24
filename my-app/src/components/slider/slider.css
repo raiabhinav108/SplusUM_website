@@ -47,33 +47,34 @@
     height:750px;
 }
 
-.description_hd{
+.description_hd h1{
     color: #ffffff;
-    font-size: 7rem;
+    font-size: 90px;
     text-transform: uppercase;
     white-space: normal;
     margin: 0em 0em 0.2em 0em;
     width:30%;
-    font-weight: 800;
+    font-weight: 600;
     text-transform: none;
-    line-height: 7rem;
+    line-height: 90px;
    
-    padding-top: 22%;
+    padding-top: 27%;
     padding-left: 8%;
     
 }
 
-.description_para{
-    font-size: 14px;
-    line-height: 1.5em;
+.description_para p{
+    font-size: 16px;
+    line-height: 26px;
     white-space: normal;
     color: #FFFFFFA6;
     margin-bottom: 2em;
     text-transform: uppercase;
-    letter-spacing: 0.04rem;
+    letter-spacing: 0.24px;
     padding-left: 8%;
     font-weight: 400;
-    width:38%;
+    width:36%;
+    
     padding-bottom: 2em;
 }
 
@@ -142,23 +143,32 @@ padding: 0 16%;
     .main_imgsld{
 padding: 0 2%;
     }
-    .description_para{
+    .description_para p{
  padding-left:0%;
        width:97%;
-        
+       font-size: 14px;
+       line-height: 22px;
+       white-space: normal;
+       color: #FFFFFFA6;
+       margin-bottom: 2em;
+       text-transform: uppercase;
+       letter-spacing: 0.24px;
+  
+       font-weight: 400;
+ 
     }
-    .description_hd{
-        
+    .description_hd h1{
+        padding-left: 0%;
         font-size:5rem ;
         line-height: 5rem;
-        padding-top: 60%;
+        padding-top: 40%;
      }
 
   
   
 }
 @media only screen and (max-width: 282px) {
-    .description_hd{
+    .description_hd h1{
         
         font-size:3rem ;
         line-height: 3rem;

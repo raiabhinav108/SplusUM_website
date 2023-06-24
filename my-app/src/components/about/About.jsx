@@ -49,18 +49,18 @@ const About = () => {
                 className="aboutHead"
                 
               >
-                <h1>
+                <h2>
                   Influential
-                  </h1>
-                  <h1>
+                  </h2>
+                  <h2>
                   -Architecture
-                </h1>
+                </h2>
               </div>
               <div
               className="aboutBody"
               >
 
-              Since the 1980s, as the complexity of buildings began to increase, the field of architecture became multi-disciplinary with specializations for each project type, technological expertise. Through a unique combination of engineering, construction and design disciplines and expertise
+              Since the 1980s, as the complexity of buildings began to increase, the field of architecture became multi-disciplinary with specializations for each project type, technological expertise. Through a unique combination of engineering, construction and design disciplines.
               </div>
             </SwiperSlide>
             <SwiperSlide>

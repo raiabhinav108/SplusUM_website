@@ -3,7 +3,7 @@
 .aboutsub_section{
     
   
-    padding: 0 6.5% ;
+    padding: 0 10% ;
     display: flex;
     
    font-family: 'Poppins', sans-serif;
@@ -15,7 +15,7 @@
     font-size: 1.7rem;
     font-weight: 500;
     text-transform: none;
-    line-height: 1.2em;
+    line-height: 0em;
 
     
     width:30%;
@@ -23,14 +23,15 @@
 
 .Contentpart_aboutsub{
     
-    font-size: 0.85em;
-    line-height: 1.5rem;
-    letter-spacing: 0.02rem;
+
     width: 50%;
     
 }
 
 .Contentpart_aboutsub p{
+  letter-spacing: 0.02rem;
+  font-size: 14px;
+  line-height: 22px;
     width:90%;
 }
 
